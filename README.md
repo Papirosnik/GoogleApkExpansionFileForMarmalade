@@ -12,7 +12,7 @@ Add the following lines into your main project mkb file :
 
 	subprojects
 	{
-		extensions/game/s3eApkExpansionFile
+		s3eApkExpansionFile
 	}
 
 And write something like this somewhere in your code:
