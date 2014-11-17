@@ -6,7 +6,7 @@ Google Apk Expansion Files (Main and Patch obb) with Marmalade SDK
 The extension uses both Google Play Downloader Library and Google Play License Library
 with all their advantages (network connection checking, background downloading, pause/resume downloading and so on...) 
 
-Example:
+Using:
 
 Add into your main project mkb file following lines:
 
