@@ -9,6 +9,7 @@ with all their advantages (network connection checking, background downloading, 
 Example:
 
 Add into your main project mkb file following lines:
+
 	subprojects
 	{
 		extensions/game/s3eApkExpansionFile
