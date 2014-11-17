@@ -1,0 +1,63 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the java portion of the s3eApkExpansionFile extension on android
+platform JAVA
+
+files
+{
+    (source/android/com/ideaworks3d/marmalade/s3eApkExpansionFile)
+	MyAlarmReceiver.java
+	MyDownloaderService.java
+    s3eApkExpansionFile.java
+	R.java
+	
+	(source/android/com/google/android/vending/expansion/downloader)
+	Constants.java
+	DownloaderClientMarshaller.java
+	DownloaderServiceMarshaller.java
+	DownloadProgressInfo.java
+	Helpers.java
+	IDownloaderClient.java
+	IDownloaderService.java
+	IStub.java
+	SystemFacade.java
+	
+	(source/android/com/google/android/vending/expansion/downloader/impl)
+	AndroidHttpClient.java
+	CustomIntentService.java
+	CustomNotificationFactory.java
+	DownloaderService.java
+	DownloadInfo.java
+	DownloadNotification.java
+	DownloadsDB.java
+	DownloadThread.java
+	HttpDateTime.java
+	V3CustomNotification.java
+	V14CustomNotification.java	
+	
+	(source/android/com/google/android/vending/licensing)
+	AESObfuscator.java
+	APKExpansionPolicy.java
+	DeviceLimiter.java
+	ILicenseResultListener.java
+	ILicensingService.java
+	LicenseChecker.java
+	LicenseCheckerCallback.java
+	LicenseValidator.java
+	NullDeviceLimiter.java
+	Obfuscator.java
+	Policy.java
+	PreferenceObfuscator.java
+	ResponseData.java
+	ServerManagedPolicy.java
+	StrictPolicy.java
+	ValidationException.java
+	
+	(source/android/com/google/android/vending/licensing/util)
+	Base64.java
+	Base64DecoderException.java	
+}
+
+librarypath "$MARMALADE_ROOT/s3e/deploy/plugins/android/android.jar"
+librarypath "$MARMALADE_ROOT/s3e/loader/android/s3e_release.jar"
+
+option output-name=lib/android/s3eApkExpansionFile.jar

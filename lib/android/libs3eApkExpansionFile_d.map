@@ -1,0 +1,1568 @@
+Archive member included because of file (symbol)
+
+D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                              debug\s3eApkExpansionFile_platform.os (IwDebugTraceIsChannelOn)
+D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+                              debug\s3eApkExpansionFile_platform.os (s3eEdkThreadRunOnOS)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_op.o)
+                              debug\s3eApkExpansionFile_platform.os (_Znwj)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(del_op.o)
+                              debug\s3eApkExpansionFile_platform.os (_ZdlPv)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_op.o) (__gxx_personality_v0)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_op.o) (__cxa_allocate_exception)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_handler.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_op.o) (__new_handler)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_opv.o)
+                              debug\s3eApkExpansionFile_platform.os (_Znaj)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o) (_ZTVN10__cxxabiv120__si_class_type_infoE)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o) (__cxa_get_globals)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o) (_ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o) (_ZNSt9type_infoD2Ev)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_op.o) (__cxa_throw)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(atexit_arm.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o) (__aeabi_atexit)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(bad_alloc.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_op.o) (_ZTVSt9bad_alloc)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_unex_handler.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o) (_ZN10__cxxabiv120__unexpected_handlerE)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_term_handler.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o) (_ZN10__cxxabiv119__terminate_handlerE)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_arm.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_op.o) (__cxa_end_cleanup)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o) (_ZN10__cxxabiv111__terminateEPFvvE)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_call.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o) (__cxa_call_terminate)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o) (__cxa_begin_catch)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o) (_ZNSt9exceptionD2Ev)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(vterminate.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_term_handler.o) (_ZN9__gnu_cxx27__verbose_terminate_handlerEv)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(vterminate.o) (__cxa_demangle)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(pure.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o) (__cxa_pure_virtual)
+D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_type.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(vterminate.o) (__cxa_current_exception_type)
+d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o)
+                              D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o) (__aeabi_ldivmod)
+d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+                              d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
+d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+                              d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o) (__gnu_ldivmod_helper)
+d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+                              D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(del_op.o) (__aeabi_unwind_cpp_pr0)
+d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(libunwind.o)
+                              d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o) (restore_core_regs)
+d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+                              d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
+d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+                              d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o) (__divdi3)
+d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+                              d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o) (__udivdi3)
+d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivsi3.o)
+                              d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o) (__aeabi_uidiv)
+
+Discarded input sections
+
+ .text          0x00000000       0x14 D:/Android/ndk/r9d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .bss           0x00000000        0x0 D:/Android/ndk/r9d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .note.GNU-stack
+                0x00000000        0x0 D:/Android/ndk/r9d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .group         0x00000000        0x8 debug\s3eApkExpansionFile_platform.os
+ .text          0x00000000        0x0 debug\s3eApkExpansionFile_platform.os
+ .data          0x00000000        0x0 debug\s3eApkExpansionFile_platform.os
+ .text._ZL18javaStringToNativeP8_jstring
+                0x00000000       0x98 debug\s3eApkExpansionFile_platform.os
+ .note.GNU-stack
+                0x00000000        0x0 debug\s3eApkExpansionFile_platform.os
+ .text          0x00000000        0x0 debug\s3eApkExpansionFile.os
+ .data          0x00000000        0x0 debug\s3eApkExpansionFile.os
+ .bss           0x00000000        0x0 debug\s3eApkExpansionFile.os
+ .note.GNU-stack
+                0x00000000        0x0 debug\s3eApkExpansionFile.os
+ .text          0x00000000        0x0 debug\s3eApkExpansionFile_register.os
+ .data          0x00000000        0x0 debug\s3eApkExpansionFile_register.os
+ .bss           0x00000000        0x0 debug\s3eApkExpansionFile_register.os
+ .note.GNU-stack
+                0x00000000        0x0 debug\s3eApkExpansionFile_register.os
+ .text          0x00000000        0x0 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .data          0x00000000        0x0 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugClearConfigCache
+                0x00000000       0x80 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugAssertIsChannelOn
+                0x00000000      0x1ec D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugAssertShow
+                0x00000000      0x2e8 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugAssertSetSolution
+                0x00000000       0xb8 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugAssertSetMessage
+                0x00000000      0x100 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwAssertRegisterTextCallback
+                0x00000000       0x1c D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwAssertRegisterCallback
+                0x00000000       0x1c D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugTraceDisable
+                0x00000000       0x10 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugTraceChannelSwitch
+                0x00000000      0x1e4 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugErrorRegisterCallback
+                0x00000000       0x1c D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugErrorShow
+                0x00000000      0x108 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugAssertSetUID
+                0x00000000       0x14 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text          0x00000000        0x0 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .data          0x00000000        0x0 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .bss           0x00000000        0x0 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .text.s3eEdkErrorSetString
+                0x00000000       0x30 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .text.s3eEdkThreadRunOnOSAsync
+                0x00000000       0x30 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_op.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_op.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_op.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_op.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(del_op.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(del_op.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(del_op.o)
+ .ARM.extab.text._ZdlPv
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(del_op.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(del_op.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .ARM.extab.text._ZL12read_sleb128PKhPl
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .ARM.extab.text._ZL28read_encoded_value_with_basehjPKhPj
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .ARM.extab.text._ZL17parse_lsda_headerP15_Unwind_ContextPKhP16lsda_header_info
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .group         0x00000000       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .group         0x00000000       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .group         0x00000000       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .group         0x00000000       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .group         0x00000000       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .group         0x00000000       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .group         0x00000000       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .group         0x00000000       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .group         0x00000000        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .group         0x00000000        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .group         0x00000000        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .group         0x00000000        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .group         0x00000000        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .group         0x00000000        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.extab.text._ZNK9__gnu_cxx24__concurrence_lock_error4whatEv
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.extab.text._ZNK9__gnu_cxx26__concurrence_unlock_error4whatEv
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.extab.text._ZN9__gnu_cxx26__concurrence_unlock_errorD2Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.extab.text._ZN9__gnu_cxx24__concurrence_lock_errorD2Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.extab.text._ZN9__gnu_cxx26__concurrence_unlock_errorD0Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.extab.text._ZN9__gnu_cxx24__concurrence_lock_errorD0Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.extab.text.startup._GLOBAL__sub_I_eh_alloc.cc
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_handler.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_handler.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_handler.o)
+ .ARM.extab.text._ZSt15set_new_handlerPFvvE
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_handler.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_handler.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_opv.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_opv.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_opv.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_opv.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+ .ARM.extab.text._ZN10__cxxabiv120__si_class_type_infoD2Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+ .ARM.extab.text._ZN10__cxxabiv120__si_class_type_infoD0Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+ .group         0x00000000       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .ARM.extab.text._ZN17__eh_globals_initD2Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .ARM.extab.text._ZL15eh_globals_dtorPv
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .ARM.extab.text.startup._GLOBAL__sub_I_eh_globals.cc
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .ARM.extab.text._ZN10__cxxabiv117__class_type_infoD2Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .ARM.extab.text._ZN10__cxxabiv117__class_type_infoD0Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+ .ARM.extab.text._ZNSt9type_infoD2Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+ .ARM.extab.text._ZNKSt9type_info14__is_pointer_pEv
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+ .ARM.extab.text._ZNKSt9type_info15__is_function_pEv
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+ .ARM.extab.text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+ .ARM.extab.text._ZNSt9type_infoD0Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+ .ARM.extab.text._ZNKSt9type_info10__do_catchEPKS_PPvj
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o)
+ .ARM.extab.text._ZL23__gxx_exception_cleanup19_Unwind_Reason_CodeP21_Unwind_Control_Block
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o)
+ .ARM.extab.text.__cxa_throw
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o)
+ .ARM.extab.text.__cxa_rethrow
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(atexit_arm.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(atexit_arm.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(atexit_arm.o)
+ .ARM.extab.text.__aeabi_atexit
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(atexit_arm.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(atexit_arm.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(bad_alloc.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(bad_alloc.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(bad_alloc.o)
+ .ARM.extab.text._ZNKSt9bad_alloc4whatEv
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(bad_alloc.o)
+ .ARM.extab.text._ZNSt9bad_allocD2Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(bad_alloc.o)
+ .ARM.extab.text._ZNSt9bad_allocD0Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(bad_alloc.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(bad_alloc.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_unex_handler.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_unex_handler.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_unex_handler.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_unex_handler.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_term_handler.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_term_handler.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_term_handler.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_term_handler.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_arm.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_arm.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_arm.o)
+ .ARM.extab.text.__cxa_type_match
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_arm.o)
+ .ARM.extab.text.__cxa_begin_cleanup
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_arm.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_arm.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+ .ARM.extab.text._ZSt13set_terminatePFvvE
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+ .ARM.extab.text._ZSt14set_unexpectedPFvvE
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_call.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_call.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_call.o)
+ .ARM.extab.text._ZN10__cxxabiv1L24__is_gxx_exception_classEPc
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_call.o)
+ .ARM.extab.text.__cxa_call_terminate
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_call.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_call.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+ .ARM.extab.text.__cxa_get_exception_ptr
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .ARM.extab.text._ZNSt9exceptionD2Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .ARM.extab.text._ZNSt13bad_exceptionD2Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .ARM.extab.text._ZN10__cxxabiv115__forced_unwindD2Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .ARM.extab.text._ZN10__cxxabiv119__foreign_exceptionD2Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .ARM.extab.text._ZNKSt9exception4whatEv
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .ARM.extab.text._ZNKSt13bad_exception4whatEv
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .ARM.extab.text._ZNSt9exceptionD0Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .ARM.extab.text._ZNSt13bad_exceptionD0Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .ARM.extab.text._ZN10__cxxabiv115__forced_unwindD0Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .ARM.extab.text._ZN10__cxxabiv119__foreign_exceptionD0Ev
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(vterminate.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(vterminate.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(vterminate.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(vterminate.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_make_comp
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_make_name
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_cv_qualifiers
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_ref_qualifier
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_clone_suffix
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_substitution
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_append_char
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_number.isra.0
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_number_component
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_compact_number
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_template_param
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_source_name
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_call_offset
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_lookup_template_argument.isra.6
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_find_pack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_growable_string_callback_adapter
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_expr_primary
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_template_args
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_name
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_type
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_parmlist
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_bare_function_type
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_encoding
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_operator_name
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_unqualified_name
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_expression
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_exprlist
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_append_string
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_print_comp.part.10
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_print_comp
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_print_mod
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_print_mod_list
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_print_array_type.isra.9
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_print_function_type.isra.11
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_print_cast.isra.12
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_print_expr_op
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_print_subexpr
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.__cxa_demangle
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(pure.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(pure.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(pure.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(pure.o)
+ .text          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_type.o)
+ .data          0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_type.o)
+ .bss           0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_type.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_type.o)
+ .data          0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o)
+ .note.GNU-stack
+                0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+ .bss           0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+ .note.GNU-stack
+                0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+ .data          0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+ .ARM.extab     0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+ .note.GNU-stack
+                0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+ .bss           0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+ .note.GNU-stack
+                0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+ .data          0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(libunwind.o)
+ .bss           0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(libunwind.o)
+ .note.GNU-stack
+                0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(libunwind.o)
+ .data          0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+ .bss           0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+ .note.GNU-stack
+                0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+ .data          0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+ .data          0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivsi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivsi3.o)
+ .text          0x00000000        0x0 D:/Android/ndk/r9d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+ .data          0x00000000        0x0 D:/Android/ndk/r9d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+ .bss           0x00000000        0x0 D:/Android/ndk/r9d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+ .note.GNU-stack
+                0x00000000        0x0 D:/Android/ndk/r9d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+
+Memory map
+
+ ** file header
+                0x00000000       0x34
+ ** segment headers
+                0x00000034      0x100
+
+.interp         0x00000134       0x13
+ ** fill        0x00000134       0x13
+
+.dynsym         0x00000148      0xc30
+ ** dynsym      0x00000148      0xc30
+
+.dynstr         0x00000d78     0x12af
+ ** string table
+                0x00000d78     0x12af
+
+.hash           0x00002028      0x520
+ ** hash        0x00002028      0x520
+
+.rel.dyn        0x00002548      0xa38
+ ** dynamic relocs
+                0x00002548      0xa38
+
+.rel.plt        0x00002f80      0x140
+ ** dynamic relocs
+                0x00002f80      0x140
+
+.plt            0x000030c0      0x1f4
+ ** PLT         0x000030c0      0x1f4
+
+.text           0x000032b4     0xe400
+ .text.exit     0x000032b4       0x10 D:/Android/ndk/r9d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+                0x000032b4                __on_dlclose
+ .text.startup._GLOBAL__sub_I_IwDebug.cpp
+                0x000032c4       0x88 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.startup._GLOBAL__sub_I_eh_alloc.cc
+                0x0000334c       0x18 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .text.startup._GLOBAL__sub_I_eh_globals.cc
+                0x00003364       0x5c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .text._ZN7_JNIEnv9FindClassEPKc
+                0x000033c0       0x38 debug\s3eApkExpansionFile_platform.os
+                0x000033c0                _JNIEnv::FindClass(char const*)
+ .text._ZN7_JNIEnv17ExceptionOccurredEv
+                0x000033f8       0x30 debug\s3eApkExpansionFile_platform.os
+                0x000033f8                _JNIEnv::ExceptionOccurred()
+ .text._ZN7_JNIEnv17ExceptionDescribeEv
+                0x00003428       0x28 debug\s3eApkExpansionFile_platform.os
+                0x00003428                _JNIEnv::ExceptionDescribe()
+ .text._ZN7_JNIEnv14ExceptionClearEv
+                0x00003450       0x28 debug\s3eApkExpansionFile_platform.os
+                0x00003450                _JNIEnv::ExceptionClear()
+ .text._ZN7_JNIEnv12NewGlobalRefEP8_jobject
+                0x00003478       0x38 debug\s3eApkExpansionFile_platform.os
+                0x00003478                _JNIEnv::NewGlobalRef(_jobject*)
+ .text._ZN7_JNIEnv15DeleteGlobalRefEP8_jobject
+                0x000034b0       0x30 debug\s3eApkExpansionFile_platform.os
+                0x000034b0                _JNIEnv::DeleteGlobalRef(_jobject*)
+ .text._ZN7_JNIEnv14DeleteLocalRefEP8_jobject
+                0x000034e0       0x30 debug\s3eApkExpansionFile_platform.os
+                0x000034e0                _JNIEnv::DeleteLocalRef(_jobject*)
+ .text._ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+                0x00003510       0x58 debug\s3eApkExpansionFile_platform.os
+                0x00003510                _JNIEnv::NewObject(_jclass*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv11GetMethodIDEP7_jclassPKcS3_
+                0x00003568       0x48 debug\s3eApkExpansionFile_platform.os
+                0x00003568                _JNIEnv::GetMethodID(_jclass*, char const*, char const*)
+ .text._ZN7_JNIEnv16CallObjectMethodEP8_jobjectP10_jmethodIDz
+                0x000035b0       0x58 debug\s3eApkExpansionFile_platform.os
+                0x000035b0                _JNIEnv::CallObjectMethod(_jobject*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv17CallBooleanMethodEP8_jobjectP10_jmethodIDz
+                0x00003608       0x5c debug\s3eApkExpansionFile_platform.os
+                0x00003608                _JNIEnv::CallBooleanMethod(_jobject*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv13CallIntMethodEP8_jobjectP10_jmethodIDz
+                0x00003664       0x58 debug\s3eApkExpansionFile_platform.os
+                0x00003664                _JNIEnv::CallIntMethod(_jobject*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
+                0x000036bc       0x4c debug\s3eApkExpansionFile_platform.os
+                0x000036bc                _JNIEnv::CallVoidMethod(_jobject*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv10GetFieldIDEP7_jclassPKcS3_
+                0x00003708       0x48 debug\s3eApkExpansionFile_platform.os
+                0x00003708                _JNIEnv::GetFieldID(_jclass*, char const*, char const*)
+ .text._ZN7_JNIEnv12GetLongFieldEP8_jobjectP9_jfieldID
+                0x00003750       0x48 debug\s3eApkExpansionFile_platform.os
+                0x00003750                _JNIEnv::GetLongField(_jobject*, _jfieldID*)
+ .text._ZN7_JNIEnv13GetFloatFieldEP8_jobjectP9_jfieldID
+                0x00003798       0x40 debug\s3eApkExpansionFile_platform.os
+                0x00003798                _JNIEnv::GetFloatField(_jobject*, _jfieldID*)
+ .text._ZN7_JNIEnv12NewStringUTFEPKc
+                0x000037d8       0x38 debug\s3eApkExpansionFile_platform.os
+                0x000037d8                _JNIEnv::NewStringUTF(char const*)
+ .text._ZN7_JNIEnv18GetStringUTFLengthEP8_jstring
+                0x00003810       0x38 debug\s3eApkExpansionFile_platform.os
+                0x00003810                _JNIEnv::GetStringUTFLength(_jstring*)
+ .text._ZN7_JNIEnv17GetStringUTFCharsEP8_jstringPh
+                0x00003848       0x40 debug\s3eApkExpansionFile_platform.os
+                0x00003848                _JNIEnv::GetStringUTFChars(_jstring*, unsigned char*)
+ .text._ZN7_JNIEnv21ReleaseStringUTFCharsEP8_jstringPKc
+                0x00003888       0x38 debug\s3eApkExpansionFile_platform.os
+                0x00003888                _JNIEnv::ReleaseStringUTFChars(_jstring*, char const*)
+ .text._ZN7_JNIEnv15RegisterNativesEP7_jclassPK15JNINativeMethodi
+                0x000038c0       0x48 debug\s3eApkExpansionFile_platform.os
+                0x000038c0                _JNIEnv::RegisterNatives(_jclass*, JNINativeMethod const*, int)
+ .text._ZN7_JavaVM6GetEnvEPPvi
+                0x00003908       0x40 debug\s3eApkExpansionFile_platform.os
+                0x00003908                _JavaVM::GetEnv(void**, int)
+ .text._ZL15s3eEdkJNIGetEnvv
+                0x00003948       0x40 debug\s3eApkExpansionFile_platform.os
+ .text._ZL27s3eEdkAndroidFindClass_realPKc
+                0x00003988       0x8c debug\s3eApkExpansionFile_platform.os
+ .text._ZL22s3eEdkAndroidFindClassPKc
+                0x00003a14       0x38 debug\s3eApkExpansionFile_platform.os
+ .text._Z32s3eApkExpansionFileInit_platformv
+                0x00003a4c      0x43c debug\s3eApkExpansionFile_platform.os
+                0x00003a4c                s3eApkExpansionFileInit_platform()
+ .text._Z37s3eApkExpansionFileTerminate_platformv
+                0x00003e88       0x48 debug\s3eApkExpansionFile_platform.os
+                0x00003e88                s3eApkExpansionFileTerminate_platform()
+ .text._Z38s3eApkExpansionFileInitialize_platformPKcS0_S0_
+                0x00003ed0       0xd0 debug\s3eApkExpansionFile_platform.os
+                0x00003ed0                s3eApkExpansionFileInitialize_platform(char const*, char const*, char const*)
+ .text._Z44s3eApkExpansionFileGetPathToMainObb_platformv
+                0x00003fa0       0xe0 debug\s3eApkExpansionFile_platform.os
+                0x00003fa0                s3eApkExpansionFileGetPathToMainObb_platform()
+ .text._Z45s3eApkExpansionFileGetPathToPatchObb_platformv
+                0x00004080       0xe0 debug\s3eApkExpansionFile_platform.os
+                0x00004080                s3eApkExpansionFileGetPathToPatchObb_platform()
+ .text._Z47s3eApkExpansionFileNeedDownloadMainObb_platformv
+                0x00004160       0x60 debug\s3eApkExpansionFile_platform.os
+                0x00004160                s3eApkExpansionFileNeedDownloadMainObb_platform()
+ .text._Z48s3eApkExpansionFileNeedDownloadPatchObb_platformv
+                0x000041c0       0x60 debug\s3eApkExpansionFile_platform.os
+                0x000041c0                s3eApkExpansionFileNeedDownloadPatchObb_platform()
+ .text._Z44s3eApkExpansionFileStartDownloading_platformv
+                0x00004220       0x48 debug\s3eApkExpansionFile_platform.os
+                0x00004220                s3eApkExpansionFileStartDownloading_platform()
+ .text._Z47s3eApkExpansionFileDownloadingCompletedCallbackP7_JNIEnvP8_jobjectS2_
+                0x00004268       0x54 debug\s3eApkExpansionFile_platform.os
+                0x00004268                s3eApkExpansionFileDownloadingCompletedCallback(_JNIEnv*, _jobject*, _jobject*)
+ .text._Z44s3eApkExpansionFileDownloadingFailedCallbackP7_JNIEnvP8_jobjectS2_
+                0x000042bc       0x60 debug\s3eApkExpansionFile_platform.os
+                0x000042bc                s3eApkExpansionFileDownloadingFailedCallback(_JNIEnv*, _jobject*, _jobject*)
+ .text._ZL40s3eApkExpansionFileReleaseUpdateCallbackjiPvS_iS_
+                0x0000431c       0x30 debug\s3eApkExpansionFile_platform.os
+ .text._Z44s3eApkExpansionFileDownloadingUpdateCallbackP7_JNIEnvP8_jobjectS2_
+                0x0000434c      0x204 debug\s3eApkExpansionFile_platform.os
+                0x0000434c                s3eApkExpansionFileDownloadingUpdateCallback(_JNIEnv*, _jobject*, _jobject*)
+ .text._Z23s3eApkExpansionFileInitv
+                0x00004550       0x14 debug\s3eApkExpansionFile.os
+                0x00004550                s3eApkExpansionFileInit()
+ .text._Z28s3eApkExpansionFileTerminatev
+                0x00004564        0xc debug\s3eApkExpansionFile.os
+                0x00004564                s3eApkExpansionFileTerminate()
+ .text.s3eApkExpansionFileInitialize
+                0x00004570       0x34 debug\s3eApkExpansionFile.os
+                0x00004570                s3eApkExpansionFileInitialize
+ .text.s3eApkExpansionFileGetPathToMainObb
+                0x000045a4       0x14 debug\s3eApkExpansionFile.os
+                0x000045a4                s3eApkExpansionFileGetPathToMainObb
+ .text.s3eApkExpansionFileGetPathToPatchObb
+                0x000045b8       0x14 debug\s3eApkExpansionFile.os
+                0x000045b8                s3eApkExpansionFileGetPathToPatchObb
+ .text.s3eApkExpansionFileNeedDownloadMainObb
+                0x000045cc       0x14 debug\s3eApkExpansionFile.os
+                0x000045cc                s3eApkExpansionFileNeedDownloadMainObb
+ .text.s3eApkExpansionFileNeedDownloadPatchObb
+                0x000045e0       0x14 debug\s3eApkExpansionFile.os
+                0x000045e0                s3eApkExpansionFileNeedDownloadPatchObb
+ .text.s3eApkExpansionFileStartDownloading
+                0x000045f4        0xc debug\s3eApkExpansionFile.os
+                0x000045f4                s3eApkExpansionFileStartDownloading
+ .text._ZL34s3eApkExpansionFileInitialize_wrapPKcS0_S0_
+                0x00004600       0xb4 debug\s3eApkExpansionFile_register.os
+ .text._ZL40s3eApkExpansionFileGetPathToMainObb_wrapv
+                0x000046b4       0x90 debug\s3eApkExpansionFile_register.os
+ .text._ZL41s3eApkExpansionFileGetPathToPatchObb_wrapv
+                0x00004744       0x90 debug\s3eApkExpansionFile_register.os
+ .text._ZL43s3eApkExpansionFileNeedDownloadMainObb_wrapv
+                0x000047d4       0xa0 debug\s3eApkExpansionFile_register.os
+ .text._ZL44s3eApkExpansionFileNeedDownloadPatchObb_wrapv
+                0x00004874       0xa0 debug\s3eApkExpansionFile_register.os
+ .text._ZL40s3eApkExpansionFileStartDownloading_wrapv
+                0x00004914       0x88 debug\s3eApkExpansionFile_register.os
+ .text.s3eApkExpansionFileRegister
+                0x0000499c       0x50 debug\s3eApkExpansionFile_register.os
+                0x0000499c                s3eApkExpansionFileRegister
+ .text.s3eApkExpansionFileUnRegister
+                0x000049ec       0x44 debug\s3eApkExpansionFile_register.os
+                0x000049ec                s3eApkExpansionFileUnRegister
+ .text._Z30s3eApkExpansionFileRegisterExtv
+                0x00004a30      0x148 debug\s3eApkExpansionFile_register.os
+                0x00004a30                s3eApkExpansionFileRegisterExt()
+ .text.RegisterExt
+                0x00004b78        0xc debug\s3eApkExpansionFile_register.os
+                0x00004b78                RegisterExt
+ .text.IwDebugTraceIsChannelOn
+                0x00004b84      0x27c D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                0x00004b84                IwDebugTraceIsChannelOn
+ .text.IwDebugTraceSetTraceChannel
+                0x00004e00       0x1c D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                0x00004e00                IwDebugTraceSetTraceChannel
+ .text.IwDebugTraceLineVPrintf
+                0x00004e1c       0xfc D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                0x00004e1c                IwDebugTraceLineVPrintf
+ .text.IwDebugTraceLinePrintf
+                0x00004f18       0x30 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                0x00004f18                IwDebugTraceLinePrintf
+ .text.s3eEdkThreadRunOnOS
+                0x00004f48       0x30 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+                0x00004f48                s3eEdkThreadRunOnOS
+ .text._Znwj    0x00004f78       0xa4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_op.o)
+                0x00004f78                operator new(unsigned int)
+ .text._ZdlPv   0x0000501c        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(del_op.o)
+                0x0000501c                operator delete(void*)
+ .text._ZL12read_sleb128PKhPl
+                0x00005028       0x44 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .text._ZL28read_encoded_value_with_basehjPKhPj
+                0x0000506c      0x170 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .text._ZL21base_of_encoded_valuehP15_Unwind_Context
+                0x000051dc       0x74 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .text._ZL17parse_lsda_headerP15_Unwind_ContextPKhP16lsda_header_info
+                0x00005250       0xe0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .text.__gxx_personality_v0
+                0x00005330      0x668 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+                0x00005330                __gxx_personality_v0
+ .text._ZNK9__gnu_cxx24__concurrence_lock_error4whatEv
+                0x00005998       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x00005998                __gnu_cxx::__concurrence_lock_error::what() const
+ .text._ZNK9__gnu_cxx26__concurrence_unlock_error4whatEv
+                0x000059a8       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x000059a8                __gnu_cxx::__concurrence_unlock_error::what() const
+ .text._ZN9__gnu_cxx26__concurrence_unlock_errorD2Ev
+                0x000059b8       0x28 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x000059b8                __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+                0x000059b8                __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+ .text._ZN9__gnu_cxx24__concurrence_lock_errorD2Ev
+                0x000059e0       0x28 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x000059e0                __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+                0x000059e0                __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+ .text._ZN9__gnu_cxx26__concurrence_unlock_errorD0Ev
+                0x00005a08       0x30 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x00005a08                __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+ .text._ZN9__gnu_cxx24__concurrence_lock_errorD0Ev
+                0x00005a38       0x30 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x00005a38                __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+ .text._ZN9__gnu_cxx30__throw_concurrence_lock_errorEv
+                0x00005a68       0x48 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x00005a68                __gnu_cxx::__throw_concurrence_lock_error()
+ .text._ZN9__gnu_cxx32__throw_concurrence_unlock_errorEv
+                0x00005ab0       0x48 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x00005ab0                __gnu_cxx::__throw_concurrence_unlock_error()
+ .text.__cxa_allocate_exception
+                0x00005af8       0xf4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x00005af8                __cxa_allocate_exception
+ .text.__cxa_free_exception
+                0x00005bec       0xa0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x00005bec                __cxa_free_exception
+ .text.__cxa_allocate_dependent_exception
+                0x00005c8c       0xe8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x00005c8c                __cxa_allocate_dependent_exception
+ .text.__cxa_free_dependent_exception
+                0x00005d74       0xa8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x00005d74                __cxa_free_dependent_exception
+ .text._ZSt15set_new_handlerPFvvE
+                0x00005e1c       0x1c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_handler.o)
+                0x00005e1c                std::set_new_handler(void (*)())
+ .text._Znaj    0x00005e38       0x1c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_opv.o)
+                0x00005e38                operator new[](unsigned int)
+ .text._ZN10__cxxabiv120__si_class_type_infoD2Ev
+                0x00005e54       0x34 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+                0x00005e54                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+                0x00005e54                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+ .text._ZN10__cxxabiv120__si_class_type_infoD0Ev
+                0x00005e88       0x1c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+                0x00005e88                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+ .text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+                0x00005ea4       0x64 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+                0x00005ea4                __cxxabiv1::__si_class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+ .text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+                0x00005f08       0xe0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+                0x00005f08                __cxxabiv1::__si_class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+ .text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+                0x00005fe8       0x40 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+                0x00005fe8                __cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+ .text._ZN17__eh_globals_initD2Ev
+                0x00006028       0x34 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+                0x00006028                __eh_globals_init::~__eh_globals_init()
+                0x00006028                __eh_globals_init::~__eh_globals_init()
+ .text._ZL15eh_globals_dtorPv
+                0x0000605c       0x3c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .text.__cxa_get_globals_fast
+                0x00006098       0x48 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+                0x00006098                __cxa_get_globals_fast
+ .text.__cxa_get_globals
+                0x000060e0       0x90 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+                0x000060e0                __cxa_get_globals
+ .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+                0x00006170       0x5c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+                0x00006170                __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
+ .text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+                0x000061cc       0x14 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+                0x000061cc                __cxxabiv1::__class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+ .text._ZN10__cxxabiv117__class_type_infoD2Ev
+                0x000061e0       0x34 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+                0x000061e0                __cxxabiv1::__class_type_info::~__class_type_info()
+                0x000061e0                __cxxabiv1::__class_type_info::~__class_type_info()
+ .text._ZN10__cxxabiv117__class_type_infoD0Ev
+                0x00006214       0x1c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+                0x00006214                __cxxabiv1::__class_type_info::~__class_type_info()
+ .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+                0x00006230       0x30 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+                0x00006230                __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+ .text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+                0x00006260       0x44 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+                0x00006260                __cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+ .text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+                0x000062a4       0x70 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+                0x000062a4                __cxxabiv1::__class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+ .text._ZNSt9type_infoD2Ev
+                0x00006314       0x18 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+                0x00006314                std::type_info::~type_info()
+                0x00006314                std::type_info::~type_info()
+ .text._ZNKSt9type_info14__is_pointer_pEv
+                0x0000632c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+                0x0000632c                std::type_info::__is_pointer_p() const
+ .text._ZNKSt9type_info15__is_function_pEv
+                0x00006334        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+                0x00006334                std::type_info::__is_function_p() const
+ .text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
+                0x0000633c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+                0x0000633c                std::type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
+ .text._ZNSt9type_infoD0Ev
+                0x00006344       0x28 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+                0x00006344                std::type_info::~type_info()
+ .text._ZNKSt9type_infoeqERKS_
+                0x0000636c       0x48 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+                0x0000636c                std::type_info::operator==(std::type_info const&) const
+ .text._ZNKSt9type_info10__do_catchEPKS_PPvj
+                0x000063b4        0x4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+                0x000063b4                std::type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+ .text._ZL23__gxx_exception_cleanup19_Unwind_Reason_CodeP21_Unwind_Control_Block
+                0x000063b8       0x38 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o)
+ .text.__cxa_throw
+                0x000063f0       0xb0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o)
+                0x000063f0                __cxa_throw
+ .text.__cxa_rethrow
+                0x000064a0       0xb0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o)
+                0x000064a0                __cxa_rethrow
+ .text.__aeabi_atexit
+                0x00006550       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(atexit_arm.o)
+                0x00006550                __aeabi_atexit
+ .text._ZNKSt9bad_alloc4whatEv
+                0x00006560       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(bad_alloc.o)
+                0x00006560                std::bad_alloc::what() const
+ .text._ZNSt9bad_allocD2Ev
+                0x00006570       0x34 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(bad_alloc.o)
+                0x00006570                std::bad_alloc::~bad_alloc()
+                0x00006570                std::bad_alloc::~bad_alloc()
+ .text._ZNSt9bad_allocD0Ev
+                0x000065a4       0x1c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(bad_alloc.o)
+                0x000065a4                std::bad_alloc::~bad_alloc()
+ .text.__cxa_end_cleanup
+                0x000065c0       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_arm.o)
+                0x000065c0                __cxa_end_cleanup
+ .text.__cxa_type_match
+                0x000065d0      0x150 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_arm.o)
+                0x000065d0                __cxa_type_match
+ .text.__cxa_begin_cleanup
+                0x00006720       0xb4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_arm.o)
+                0x00006720                __cxa_begin_cleanup
+ .text.__gnu_end_cleanup
+                0x000067d4       0xb8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_arm.o)
+                0x000067d4                __gnu_end_cleanup
+ .text._ZN10__cxxabiv111__terminateEPFvvE
+                0x0000688c       0x34 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+                0x0000688c                __cxxabiv1::__terminate(void (*)())
+ .text._ZSt9terminatev
+                0x000068c0       0x24 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+                0x000068c0                std::terminate()
+ .text._ZN10__cxxabiv112__unexpectedEPFvvE
+                0x000068e4        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+                0x000068e4                __cxxabiv1::__unexpected(void (*)())
+ .text._ZSt10unexpectedv
+                0x000068f0       0x24 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+                0x000068f0                std::unexpected()
+ .text._ZSt13set_terminatePFvvE
+                0x00006914       0x28 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+                0x00006914                std::set_terminate(void (*)())
+ .text._ZSt14set_unexpectedPFvvE
+                0x0000693c       0x28 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+                0x0000693c                std::set_unexpected(void (*)())
+ .text._ZN10__cxxabiv1L24__is_gxx_exception_classEPc
+                0x00006964       0x70 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_call.o)
+ .text.__cxa_call_terminate
+                0x000069d4       0x2c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_call.o)
+                0x000069d4                __cxa_call_terminate
+ .text.__cxa_call_unexpected
+                0x00006a00      0x168 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_call.o)
+                0x00006a00                __cxa_call_unexpected
+ .text.__cxa_get_exception_ptr
+                0x00006b68        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+                0x00006b68                __cxa_get_exception_ptr
+ .text.__cxa_begin_catch
+                0x00006b70       0xe0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+                0x00006b70                __cxa_begin_catch
+ .text.__cxa_end_catch
+                0x00006c50       0xd4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+                0x00006c50                __cxa_end_catch
+ .text._ZSt18uncaught_exceptionv
+                0x00006d24       0x18 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+                0x00006d24                std::uncaught_exception()
+ .text._ZNSt9exceptionD2Ev
+                0x00006d3c       0x24 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00006d3c                std::exception::~exception()
+                0x00006d3c                std::exception::~exception()
+ .text._ZNSt13bad_exceptionD2Ev
+                0x00006d60       0x34 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00006d60                std::bad_exception::~bad_exception()
+                0x00006d60                std::bad_exception::~bad_exception()
+ .text._ZN10__cxxabiv115__forced_unwindD2Ev
+                0x00006d94       0x24 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00006d94                __cxxabiv1::__forced_unwind::~__forced_unwind()
+                0x00006d94                __cxxabiv1::__forced_unwind::~__forced_unwind()
+ .text._ZN10__cxxabiv119__foreign_exceptionD2Ev
+                0x00006db8       0x24 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00006db8                __cxxabiv1::__foreign_exception::~__foreign_exception()
+                0x00006db8                __cxxabiv1::__foreign_exception::~__foreign_exception()
+ .text._ZNKSt9exception4whatEv
+                0x00006ddc       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00006ddc                std::exception::what() const
+ .text._ZNKSt13bad_exception4whatEv
+                0x00006dec       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00006dec                std::bad_exception::what() const
+ .text._ZNSt9exceptionD0Ev
+                0x00006dfc       0x1c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00006dfc                std::exception::~exception()
+ .text._ZNSt13bad_exceptionD0Ev
+                0x00006e18       0x1c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00006e18                std::bad_exception::~bad_exception()
+ .text._ZN10__cxxabiv115__forced_unwindD0Ev
+                0x00006e34       0x1c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00006e34                __cxxabiv1::__forced_unwind::~__forced_unwind()
+ .text._ZN10__cxxabiv119__foreign_exceptionD0Ev
+                0x00006e50       0x1c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00006e50                __cxxabiv1::__foreign_exception::~__foreign_exception()
+ .text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
+                0x00006e6c      0x1b4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(vterminate.o)
+                0x00006e6c                __gnu_cxx::__verbose_terminate_handler()
+ .text.d_make_comp
+                0x00007020      0x1d0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_make_name
+                0x000071f0       0x6c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_cv_qualifiers
+                0x0000725c      0x13c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_ref_qualifier
+                0x00007398       0x58 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_clone_suffix
+                0x000073f0      0x10c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_substitution
+                0x000074fc      0x24c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_append_char
+                0x00007748       0x5c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_number.isra.0
+                0x000077a4       0x84 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_number_component
+                0x00007828       0x60 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_compact_number
+                0x00007888       0x54 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_template_param
+                0x000078dc       0x80 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_discriminator
+                0x0000795c       0x34 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_source_name
+                0x00007990       0xf8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_call_offset
+                0x00007a88       0x9c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_lookup_template_argument.isra.6
+                0x00007b24       0x88 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_find_pack
+                0x00007bac      0x19c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_growable_string_callback_adapter
+                0x00007d48       0xcc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_expr_primary
+                0x00007e14      0x158 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_template_args
+                0x00007f6c      0x174 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_name   0x000080e0      0x4b0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_type   0x00008590      0xb9c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_parmlist
+                0x0000912c      0x108 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_bare_function_type
+                0x00009234       0x68 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_encoding
+                0x0000929c      0x874 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_operator_name
+                0x00009b10      0x194 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_unqualified_name
+                0x00009ca4      0x474 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_expression
+                0x0000a118      0x628 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_exprlist
+                0x0000a740       0xac D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_append_string
+                0x0000a7ec       0x84 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_print_comp.part.10
+                0x0000a870     0x3568 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_print_comp
+                0x0000ddd8       0x20 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_print_mod
+                0x0000ddf8      0x778 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_print_mod_list
+                0x0000e570      0x398 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_print_array_type.isra.9
+                0x0000e908      0x264 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_print_function_type.isra.11
+                0x0000eb6c      0x2d8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_print_cast.isra.12
+                0x0000ee44      0x238 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_print_expr_op
+                0x0000f07c       0xa4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_print_subexpr
+                0x0000f120      0x110 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.d_demangle_callback.constprop.16
+                0x0000f230      0x324 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .text.__cxa_demangle
+                0x0000f554      0x14c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+                0x0000f554                __cxa_demangle
+ .text.__gcclibcxx_demangle_callback
+                0x0000f6a0       0x2c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+                0x0000f6a0                __gcclibcxx_demangle_callback
+ .text.__cxa_pure_virtual
+                0x0000f6cc       0x20 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(pure.o)
+                0x0000f6cc                __cxa_pure_virtual
+ .text.__cxa_deleted_virtual
+                0x0000f6ec       0x20 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(pure.o)
+                0x0000f6ec                __cxa_deleted_virtual
+ .text.__cxa_current_exception_type
+                0x0000f70c       0x2c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_type.o)
+                0x0000f70c                __cxa_current_exception_type
+ .text          0x0000f738       0x44 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o)
+                0x0000f738                __aeabi_ldivmod
+ .text          0x0000f77c       0x10 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+                0x0000f77c                __aeabi_idiv0
+                0x0000f77c                __aeabi_ldiv0
+ .text          0x0000f78c       0x78 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+                0x0000f78c                __gnu_ldivmod_helper
+                0x0000f7c8                __gnu_uldivmod_helper
+ .text          0x0000f804      0xf20 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+                0x000103b4                __aeabi_unwind_cpp_pr0
+                0x000103bc                __aeabi_unwind_cpp_pr1
+                0x000103c4                __aeabi_unwind_cpp_pr2
+                0x0000fc48                _Unwind_GetCFA
+                0x0000fc50                __gnu_Unwind_RaiseException
+                0x0000fcf4                __gnu_Unwind_ForcedUnwind
+                0x0000fd10                __gnu_Unwind_Resume
+                0x0000fd84                __gnu_Unwind_Resume_or_Rethrow
+                0x0000fda4                _Unwind_Complete
+                0x0000fda8                _Unwind_DeleteException
+                0x0000fdc8                _Unwind_VRS_Get
+                0x0000fe4c                _Unwind_VRS_Set
+                0x0000fed4                __gnu_Unwind_Backtrace
+                0x000103cc                _Unwind_VRS_Pop
+ .text          0x00010724      0x1a8 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(libunwind.o)
+                0x00010724                __restore_core_regs
+                0x00010724                restore_core_regs
+                0x00010738                __gnu_Unwind_Restore_VFP
+                0x00010740                __gnu_Unwind_Save_VFP
+                0x00010748                __gnu_Unwind_Restore_VFP_D
+                0x00010750                __gnu_Unwind_Save_VFP_D
+                0x00010758                __gnu_Unwind_Restore_VFP_D_16_to_31
+                0x00010760                __gnu_Unwind_Save_VFP_D_16_to_31
+                0x00010768                __gnu_Unwind_Restore_WMMXD
+                0x000107ac                __gnu_Unwind_Save_WMMXD
+                0x000107f0                __gnu_Unwind_Restore_WMMXC
+                0x00010804                __gnu_Unwind_Save_WMMXC
+                0x00010818                ___Unwind_RaiseException
+                0x00010818                _Unwind_RaiseException
+                0x0001083c                ___Unwind_Resume
+                0x0001083c                _Unwind_Resume
+                0x00010860                ___Unwind_Resume_or_Rethrow
+                0x00010860                _Unwind_Resume_or_Rethrow
+                0x00010884                ___Unwind_ForcedUnwind
+                0x00010884                _Unwind_ForcedUnwind
+                0x000108a8                ___Unwind_Backtrace
+                0x000108a8                _Unwind_Backtrace
+ .text          0x000108cc      0x484 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+                0x00010958                __gnu_unwind_execute
+                0x00010cd4                __gnu_unwind_frame
+                0x00010d14                _Unwind_GetRegionStart
+                0x00010d24                _Unwind_GetLanguageSpecificData
+                0x00010d40                _Unwind_GetDataRelBase
+                0x00010d48                _Unwind_GetTextRelBase
+ .text          0x00010d50      0x498 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+                0x00010d50                __divdi3
+ .text          0x000111e8      0x404 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+                0x000111e8                __udivdi3
+ .text          0xffffffffffffffff       0xc8 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivsi3.o)
+                0x000115ec                __udivsi3
+                0x000115ec                __aeabi_uidiv
+                0x00011694                __aeabi_uidivmod
+
+.rodata         0x000116b4     0x11b8
+ .rodata        0x000116b4      0x3a4 debug\s3eApkExpansionFile_platform.os
+ .rodata        0x00011a58      0x23c debug\s3eApkExpansionFile_register.os
+ ** merge strings
+                0x00011c94      0xaab
+ .rodata._ZTSN9__gnu_cxx24__concurrence_lock_errorE
+                0x00012740       0x28 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x00012740                typeinfo name for __gnu_cxx::__concurrence_lock_error
+ .rodata._ZTSN9__gnu_cxx26__concurrence_unlock_errorE
+                0x00012768       0x2c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x00012768                typeinfo name for __gnu_cxx::__concurrence_unlock_error
+ .rodata._ZSt7nothrow
+                0x00012794        0x4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_handler.o)
+                0x00012794                std::nothrow
+ .rodata._ZTSN10__cxxabiv120__si_class_type_infoE
+                0x00012798       0x28 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+                0x00012798                typeinfo name for __cxxabiv1::__si_class_type_info
+ .rodata._ZTSN10__cxxabiv117__class_type_infoE
+                0x000127c0       0x24 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+                0x000127c0                typeinfo name for __cxxabiv1::__class_type_info
+ .rodata._ZTSSt9type_info
+                0x000127e4       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+                0x000127e4                typeinfo name for std::type_info
+ .rodata._ZTSSt9bad_alloc
+                0x000127f4       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(bad_alloc.o)
+                0x000127f4                typeinfo name for std::bad_alloc
+ .rodata._ZTSN10__cxxabiv115__forced_unwindE
+                0x00012804       0x20 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00012804                typeinfo name for __cxxabiv1::__forced_unwind
+ .rodata._ZTSN10__cxxabiv119__foreign_exceptionE
+                0x00012824       0x24 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00012824                typeinfo name for __cxxabiv1::__foreign_exception
+ .rodata._ZTSSt9exception
+                0x00012848       0x10 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00012848                typeinfo name for std::exception
+ .rodata._ZTSSt13bad_exception
+                0x00012858       0x14 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00012858                typeinfo name for std::bad_exception
+
+.ARM.extab      0x0001286c      0x310
+ .ARM.extab.text._Znwj
+                0x0001286c       0x24 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_op.o)
+ .ARM.extab.text._ZL21base_of_encoded_valuehP15_Unwind_Context
+                0x00012890        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .ARM.extab.text.__gxx_personality_v0
+                0x0001289c       0x20 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .ARM.extab.text._ZN9__gnu_cxx30__throw_concurrence_lock_errorEv
+                0x000128bc        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.extab.text._ZN9__gnu_cxx32__throw_concurrence_unlock_errorEv
+                0x000128c8        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.extab.text.__cxa_allocate_exception
+                0x000128d4       0x30 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.extab.text.__cxa_free_exception
+                0x00012904       0x2c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.extab.text.__cxa_allocate_dependent_exception
+                0x00012930       0x2c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.extab.text.__cxa_free_dependent_exception
+                0x0001295c       0x2c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.extab.text._Znaj
+                0x00012988       0x24 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_opv.o)
+ .ARM.extab.text.__cxa_get_globals_fast
+                0x000129ac       0x20 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .ARM.extab.text.__cxa_get_globals
+                0x000129cc       0x1c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .ARM.extab.text._ZNKSt9type_infoeqERKS_
+                0x000129e8        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+ .ARM.extab.text.__gnu_end_cleanup
+                0x000129f4        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_arm.o)
+ .ARM.extab.text._ZN10__cxxabiv111__terminateEPFvvE
+                0x00012a00       0x2c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+ .ARM.extab.text._ZSt9terminatev
+                0x00012a2c        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+ .ARM.extab.text._ZN10__cxxabiv112__unexpectedEPFvvE
+                0x00012a38        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+ .ARM.extab.text._ZSt10unexpectedv
+                0x00012a44        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+ .ARM.extab.text.__cxa_call_unexpected
+                0x00012a50       0x28 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_call.o)
+ .ARM.extab.text.__cxa_begin_catch
+                0x00012a78       0x20 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+ .ARM.extab.text.__cxa_end_catch
+                0x00012a98        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+ .ARM.extab.text._ZSt18uncaught_exceptionv
+                0x00012aa4        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+ .ARM.extab.text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
+                0x00012ab0       0x3c D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(vterminate.o)
+ .ARM.extab.text.d_discriminator
+                0x00012aec        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.d_demangle_callback.constprop.16
+                0x00012af8        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.__gcclibcxx_demangle_callback
+                0x00012b04        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.extab.text.__cxa_pure_virtual
+                0x00012b10        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(pure.o)
+ .ARM.extab.text.__cxa_deleted_virtual
+                0x00012b1c        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(pure.o)
+ .ARM.extab.text.__cxa_current_exception_type
+                0x00012b28        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_type.o)
+ .ARM.extab     0x00012b34        0xc d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+ .ARM.extab     0x00012b40        0xc d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+ .ARM.extab     0x00012b4c       0x30 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+
+.ARM.exidx      0x00012b7c      0x468
+ .ARM.exidx.text.startup._GLOBAL__sub_I_eh_alloc.cc
+                0x00012b7c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.exidx.text.startup._GLOBAL__sub_I_eh_globals.cc
+                0x00012b84        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ ** ARM cantunwind
+                0x00012b8c        0x8
+ .ARM.exidx.text._Znwj
+                0x00012b94        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_op.o)
+ .ARM.exidx.text._ZdlPv
+                0x00012b9c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(del_op.o)
+ .ARM.exidx.text._ZL12read_sleb128PKhPl
+                0x00012ba4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .ARM.exidx.text._ZL28read_encoded_value_with_basehjPKhPj
+                0x00012bac        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .ARM.exidx.text._ZL21base_of_encoded_valuehP15_Unwind_Context
+                0x00012bb4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .ARM.exidx.text._ZL17parse_lsda_headerP15_Unwind_ContextPKhP16lsda_header_info
+                0x00012bbc        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .ARM.exidx.text.__gxx_personality_v0
+                0x00012bc4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_personality.o)
+ .ARM.exidx.text._ZNK9__gnu_cxx24__concurrence_lock_error4whatEv
+                0x00012bcc        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.exidx.text._ZN9__gnu_cxx26__concurrence_unlock_errorD2Ev
+                0x00012bd4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.exidx.text._ZN9__gnu_cxx30__throw_concurrence_lock_errorEv
+                0x00012bdc        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.exidx.text._ZN9__gnu_cxx32__throw_concurrence_unlock_errorEv
+                0x00012be4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.exidx.text.__cxa_allocate_exception
+                0x00012bec        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.exidx.text.__cxa_free_exception
+                0x00012bf4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.exidx.text.__cxa_allocate_dependent_exception
+                0x00012bfc        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.exidx.text.__cxa_free_dependent_exception
+                0x00012c04        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .ARM.exidx.text._ZSt15set_new_handlerPFvvE
+                0x00012c0c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_handler.o)
+ .ARM.exidx.text._Znaj
+                0x00012c14        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_opv.o)
+ .ARM.exidx.text._ZN10__cxxabiv120__si_class_type_infoD2Ev
+                0x00012c1c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+                0x00012c24        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+                0x00012c2c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+                0x00012c34        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+ .ARM.exidx.text._ZN17__eh_globals_initD2Ev
+                0x00012c3c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .ARM.exidx.text._ZL15eh_globals_dtorPv
+                0x00012c44        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .ARM.exidx.text.__cxa_get_globals_fast
+                0x00012c4c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .ARM.exidx.text.__cxa_get_globals
+                0x00012c54        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+                0x00012c5c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+                0x00012c64        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .ARM.exidx.text._ZN10__cxxabiv117__class_type_infoD2Ev
+                0x00012c6c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+                0x00012c74        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+                0x00012c7c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+                0x00012c84        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+ .ARM.exidx.text._ZNSt9type_infoD2Ev
+                0x00012c8c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+ .ARM.exidx.text._ZNSt9type_infoD0Ev
+                0x00012c94        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+ .ARM.exidx.text._ZNKSt9type_infoeqERKS_
+                0x00012c9c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+ .ARM.exidx.text._ZNKSt9type_info10__do_catchEPKS_PPvj
+                0x00012ca4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+ .ARM.exidx.text._ZL23__gxx_exception_cleanup19_Unwind_Reason_CodeP21_Unwind_Control_Block
+                0x00012cac        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o)
+ .ARM.exidx.text.__cxa_throw
+                0x00012cb4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o)
+ .ARM.exidx.text.__cxa_rethrow
+                0x00012cbc        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_throw.o)
+ .ARM.exidx.text.__aeabi_atexit
+                0x00012cc4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(atexit_arm.o)
+ .ARM.exidx.text._ZNSt9bad_allocD2Ev
+                0x00012ccc        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(bad_alloc.o)
+ ** ARM cantunwind
+                0x00012cd4        0x8
+ .ARM.exidx.text.__cxa_type_match
+                0x00012cdc        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_arm.o)
+ .ARM.exidx.text.__cxa_begin_cleanup
+                0x00012ce4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_arm.o)
+ .ARM.exidx.text.__gnu_end_cleanup
+                0x00012cec        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_arm.o)
+ .ARM.exidx.text._ZN10__cxxabiv111__terminateEPFvvE
+                0x00012cf4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+ .ARM.exidx.text._ZSt9terminatev
+                0x00012cfc        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+ .ARM.exidx.text._ZN10__cxxabiv112__unexpectedEPFvvE
+                0x00012d04        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+ .ARM.exidx.text._ZSt10unexpectedv
+                0x00012d0c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+ .ARM.exidx.text._ZSt13set_terminatePFvvE
+                0x00012d14        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_terminate.o)
+ .ARM.exidx.text.__cxa_call_terminate
+                0x00012d1c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_call.o)
+ .ARM.exidx.text.__cxa_call_unexpected
+                0x00012d24        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_call.o)
+ .ARM.exidx.text.__cxa_get_exception_ptr
+                0x00012d2c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+ .ARM.exidx.text.__cxa_begin_catch
+                0x00012d34        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+ .ARM.exidx.text.__cxa_end_catch
+                0x00012d3c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+ .ARM.exidx.text._ZSt18uncaught_exceptionv
+                0x00012d44        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_catch.o)
+ .ARM.exidx.text._ZNSt9exceptionD2Ev
+                0x00012d4c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .ARM.exidx.text._ZNSt13bad_exceptionD2Ev
+                0x00012d54        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .ARM.exidx.text._ZN10__cxxabiv115__forced_unwindD2Ev
+                0x00012d5c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .ARM.exidx.text._ZNSt9exceptionD0Ev
+                0x00012d64        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+ .ARM.exidx.text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
+                0x00012d6c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(vterminate.o)
+ .ARM.exidx.text.d_make_comp
+                0x00012d74        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_cv_qualifiers
+                0x00012d7c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_ref_qualifier
+                0x00012d84        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_clone_suffix
+                0x00012d8c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_substitution
+                0x00012d94        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_append_char
+                0x00012d9c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_number.isra.0
+                0x00012da4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_number_component
+                0x00012dac        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_template_param
+                0x00012db4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_discriminator
+                0x00012dbc        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_source_name
+                0x00012dc4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_call_offset
+                0x00012dcc        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_lookup_template_argument.isra.6
+                0x00012dd4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_find_pack
+                0x00012ddc        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_growable_string_callback_adapter
+                0x00012de4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_expr_primary
+                0x00012dec        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_template_args
+                0x00012df4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_name
+                0x00012dfc        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_type
+                0x00012e04        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_parmlist
+                0x00012e0c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_bare_function_type
+                0x00012e14        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_encoding
+                0x00012e1c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_operator_name
+                0x00012e24        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_exprlist
+                0x00012e2c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_append_string
+                0x00012e34        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_print_comp.part.10
+                0x00012e3c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_print_comp
+                0x00012e44        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_print_mod
+                0x00012e4c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_print_mod_list
+                0x00012e54        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_print_array_type.isra.9
+                0x00012e5c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_print_function_type.isra.11
+                0x00012e64        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_print_cast.isra.12
+                0x00012e6c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_print_expr_op
+                0x00012e74        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_print_subexpr
+                0x00012e7c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.d_demangle_callback.constprop.16
+                0x00012e84        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.__cxa_demangle
+                0x00012e8c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.__gcclibcxx_demangle_callback
+                0x00012e94        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .ARM.exidx.text.__cxa_pure_virtual
+                0x00012e9c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(pure.o)
+ .ARM.exidx.text.__cxa_deleted_virtual
+                0x00012ea4        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(pure.o)
+ .ARM.exidx.text.__cxa_current_exception_type
+                0x00012eac        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_type.o)
+ ** ARM cantunwind
+                0x00012eb4        0x8
+ .ARM.exidx     0x00012ebc        0x8 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+ .ARM.exidx     0xffffffffffffffff       0x10 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+ .ARM.exidx     0xffffffffffffffff       0xd8 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+ ** ARM cantunwind
+                0x00012f7c        0x8
+ .ARM.exidx     0x00012f84       0x48 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+ .ARM.exidx     0x00012fcc        0x8 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00012fd4        0x8 d:/android/ndk/r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+ ** ARM cantunwind
+                0x00012fdc        0x8
+
+.data.rel.ro.local
+                0x000144d8      0x738
+ .data.rel.ro.local.cplus_demangle_builtin_types
+                0x000144d8      0x294 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .data.rel.ro.local.standard_subs
+                0x0001476c       0xc4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+ .data.rel.ro.local.cplus_demangle_operators
+                0x00014830      0x3e0 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(cp-demangle.o)
+
+.fini_array     0x00014c10        0x8
+ .fini_array    0x00014c10        0x4 D:/Android/ndk/r9d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .fini_array    0x00014c14        0x4 D:/Android/ndk/r9d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+
+.data.rel.ro    0x00014c18      0x1c8
+ .data.rel.ro   0x00014c18       0x24 debug\s3eApkExpansionFile_platform.os
+ .data.rel.ro._ZTIN9__gnu_cxx24__concurrence_lock_errorE
+                0x00014c3c        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x00014c3c                typeinfo for __gnu_cxx::__concurrence_lock_error
+ .data.rel.ro._ZTIN9__gnu_cxx26__concurrence_unlock_errorE
+                0x00014c48        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x00014c48                typeinfo for __gnu_cxx::__concurrence_unlock_error
+ .data.rel.ro._ZTVN9__gnu_cxx24__concurrence_lock_errorE
+                0x00014c58       0x18 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x00014c58                vtable for __gnu_cxx::__concurrence_lock_error
+ .data.rel.ro._ZTVN9__gnu_cxx26__concurrence_unlock_errorE
+                0x00014c70       0x18 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+                0x00014c70                vtable for __gnu_cxx::__concurrence_unlock_error
+ .data.rel.ro._ZTVN10__cxxabiv120__si_class_type_infoE
+                0x00014c88       0x30 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+                0x00014c88                vtable for __cxxabiv1::__si_class_type_info
+ .data.rel.ro._ZTIN10__cxxabiv120__si_class_type_infoE
+                0x00014cb8        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(si_class_type_info.o)
+                0x00014cb8                typeinfo for __cxxabiv1::__si_class_type_info
+ .data.rel.ro._ZTVN10__cxxabiv117__class_type_infoE
+                0x00014cc8       0x30 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+                0x00014cc8                vtable for __cxxabiv1::__class_type_info
+ .data.rel.ro._ZTIN10__cxxabiv117__class_type_infoE
+                0x00014cf8        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(class_type_info.o)
+                0x00014cf8                typeinfo for __cxxabiv1::__class_type_info
+ .data.rel.ro._ZTVSt9type_info
+                0x00014d08       0x20 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+                0x00014d08                vtable for std::type_info
+ .data.rel.ro._ZTISt9type_info
+                0x00014d28        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(tinfo.o)
+                0x00014d28                typeinfo for std::type_info
+ .data.rel.ro._ZTISt9bad_alloc
+                0x00014d30        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(bad_alloc.o)
+                0x00014d30                typeinfo for std::bad_alloc
+ .data.rel.ro._ZTVSt9bad_alloc
+                0x00014d40       0x18 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(bad_alloc.o)
+                0x00014d40                vtable for std::bad_alloc
+ .data.rel.ro._ZTIN10__cxxabiv115__forced_unwindE
+                0x00014d58        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00014d58                typeinfo for __cxxabiv1::__forced_unwind
+ .data.rel.ro._ZTISt9exception
+                0x00014d60        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00014d60                typeinfo for std::exception
+ .data.rel.ro._ZTVSt13bad_exception
+                0x00014d68       0x18 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00014d68                vtable for std::bad_exception
+ .data.rel.ro._ZTISt13bad_exception
+                0x00014d80        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00014d80                typeinfo for std::bad_exception
+ .data.rel.ro._ZTIN10__cxxabiv119__foreign_exceptionE
+                0x00014d8c        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00014d8c                typeinfo for __cxxabiv1::__foreign_exception
+ .data.rel.ro._ZTVN10__cxxabiv115__forced_unwindE
+                0x00014d98       0x18 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00014d98                vtable for __cxxabiv1::__forced_unwind
+ .data.rel.ro._ZTVN10__cxxabiv119__foreign_exceptionE
+                0x00014db0       0x18 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00014db0                vtable for __cxxabiv1::__foreign_exception
+ .data.rel.ro._ZTVSt9exception
+                0x00014dc8       0x18 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_exception.o)
+                0x00014dc8                vtable for std::exception
+
+.init_array     0x00014de0       0x10
+ .init_array    0x00014de0        0x4 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .init_array    0x00014de4        0x4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .init_array    0x00014de8        0x4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .init_array    0x00014dec        0x4 D:/Android/ndk/r9d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+
+.dynamic        0x00014df0       0xe0
+ ** dynamic     0x00014df0       0xe0
+
+.got            0x00014ed0      0x130
+ ** GOT         0x00014ed0       0x84
+ ** GOT PLT     0x00014f54       0xac
+
+.data           0x00015000        0xc
+ .data          0x00015000        0x4 D:/Android/ndk/r9d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+                0x00015000                __dso_handle
+ .data.rel._ZN10__cxxabiv120__unexpected_handlerE
+                0x00015004        0x4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_unex_handler.o)
+                0x00015004                __cxxabiv1::__unexpected_handler
+ .data.rel._ZN10__cxxabiv119__terminate_handlerE
+                0x00015008        0x4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_term_handler.o)
+                0x00015008                __cxxabiv1::__terminate_handler
+
+.bss            0x00015010     0x7169
+ .bss           0x00015010      0x81c debug\s3eApkExpansionFile_platform.os
+ .bss           0x0001582c     0x1a28 D:\marmalade\7.4\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                0x0001582c                g_DebugGlobals
+ .bss._ZL15dependents_used
+                0x00017254        0x4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .bss._ZL17dependents_buffer
+                0x00017258      0xf00 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .bss._ZN12_GLOBAL__N_115emergency_mutexE
+                0x00018158        0x4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .bss._ZL14emergency_used
+                0x0001815c        0x4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .bss._ZL16emergency_buffer
+                0x00018160     0x4000 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_alloc.o)
+ .bss.__new_handler
+                0x0001c160        0x4 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(new_handler.o)
+                0x0001c160                __new_handler
+ .bss._ZL4init  0x0001c164        0x8 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .bss._ZL10eh_globals
+                0x0001c16c        0xc D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(eh_globals.o)
+ .bss._ZZN9__gnu_cxx27__verbose_terminate_handlerEvE11terminating
+                0x0001c178        0x1 D:\Android\ndk\r9d\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi/libgnustl_static.a(vterminate.o)

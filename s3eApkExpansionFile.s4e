@@ -1,0 +1,28 @@
+callbacks
+include:
+#include <s3eTypes.h>
+#include "IwDebug.h"
+
+enum s3eApkExpansionFileCallback
+{
+	S3E_APKEXPANSIONFILE_DOWNLOADING_COMPLETED,
+	S3E_APKEXPANSIONFILE_DOWNLOADING_FAILED,
+	S3E_APKEXPANSIONFILE_DOWNLOADING_UPDATE,	
+	S3E_APKEXPANSIONFILE_CALLBACK_MAX
+};
+
+struct s3eApkExpansionFileDownloadingInfo
+{
+	long mOverallTotal;
+	long mOverallProgress;
+	long mTimeRemaining; // time remaining
+	float mCurrentSpeed; // speed in KB/S
+};
+
+functions:
+s3eResult s3eApkExpansionFileInitialize(const char* apiKey, const char* mainFileVersion, const char* patchFileVersion) S3E_RESULT_ERROR run_on_os_thread
+const char* s3eApkExpansionFileGetPathToMainObb() NULL run_on_os_thread
+const char* s3eApkExpansionFileGetPathToPatchObb() NULL run_on_os_thread
+bool s3eApkExpansionFileNeedDownloadMainObb() false run_on_os_thread 
+bool s3eApkExpansionFileNeedDownloadPatchObb() false run_on_os_thread 
+void s3eApkExpansionFileStartDownloading() run_on_os_thread

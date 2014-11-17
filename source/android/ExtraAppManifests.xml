@@ -1,0 +1,2 @@
+		<service android:name="com.ideaworks3d.marmalade.s3eApkExpansionFile.MyDownloaderService" android:enabled="true"/>
+		<receiver android:name="com.ideaworks3d.marmalade.s3eApkExpansionFile.MyAlarmReceiver" />
