@@ -8,7 +8,7 @@ with all their advantages (network connection checking, background downloading, 
 
 Using:
 
-Add into your main project mkb file following lines:
+Add the following lines into your main project mkb file :
 
 	subprojects
 	{
@@ -57,7 +57,7 @@ And write something like this somewhere in your code:
 				NULL);	 // Don't use the patch expansion file
 				
 			// check if the main obb file exists			
-			// probably, you should perform some extra validation here (check file size, crc or something else)
+			// probably, you should perform some extra validation here (check its size, crc or something else)
 			if (s3eApkExpansionFileNeedDownloadMainObb())
 			{
 				// register necessary callbacks
@@ -73,6 +73,7 @@ And write something like this somewhere in your code:
 	}
 	
 That all.
+
 Enjoy;
 
 
