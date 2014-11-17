@@ -43,13 +43,18 @@ Example:
 				"1.0.2", // Give apk version for the main expansion file
 				NULL);	 // Don't use the patch expansion file
 				
-			// register necessary callbacks
-			s3eApkExpansionFileRegister(S3E_APKEXPANSIONFILE_DOWNLOADING_COMPLETED, downloadingObbCompletedCallback, NULL);
-			s3eApkExpansionFileRegister(S3E_APKEXPANSIONFILE_DOWNLOADING_FAILED, downloadingObbFailedCallback, NULL);
-			s3eApkExpansionFileRegister(S3E_APKEXPANSIONFILE_DOWNLOADING_UPDATE, downloadingObbUpdateCallback, NULL);
-			
-			// and start downloading obb file(s)
-			s3eApkExpansionFileStartDownloading();		
+			// check if the main obb file exists			
+			// probably, you should perform some extra validation here (check file size, crc or something else)
+			if (s3eApkExpansionFileNeedDownloadMainObb())
+			{
+				// register necessary callbacks
+				s3eApkExpansionFileRegister(S3E_APKEXPANSIONFILE_DOWNLOADING_COMPLETED, downloadingObbCompletedCallback, NULL);
+				s3eApkExpansionFileRegister(S3E_APKEXPANSIONFILE_DOWNLOADING_FAILED, downloadingObbFailedCallback, NULL);
+				s3eApkExpansionFileRegister(S3E_APKEXPANSIONFILE_DOWNLOADING_UPDATE, downloadingObbUpdateCallback, NULL);
+
+				// and start downloading obb file(s)
+				s3eApkExpansionFileStartDownloading();				
+			}
 		}
 		...
 	}
