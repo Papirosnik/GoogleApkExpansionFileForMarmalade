@@ -8,6 +8,19 @@ with all their advantages (network connection checking, background downloading, 
 
 Example:
 
+Add into your main project mkb file following lines:
+	subprojects
+	{
+		extensions/game/s3eApkExpansionFile
+		#extensions/game/s3eGooglePlayGames
+	}
+
+And write something like this somewhere in your code:
+
+	#include <s3eApkExpansionFile.h>
+	
+	...
+	
 	int32 downloadingObbCompletedCallback(void *sysInfo, void* userInfo)
 	{
 		IwTrace(APKEXPANSIONFILE, ("Downloading successfully completed"));	
@@ -58,5 +71,8 @@ Example:
 		}
 		...
 	}
+	
+That all.
+Enjoy;
 
 
