@@ -13,7 +13,6 @@ Add into your main project mkb file following lines:
 	subprojects
 	{
 		extensions/game/s3eApkExpansionFile
-		#extensions/game/s3eGooglePlayGames
 	}
 
 And write something like this somewhere in your code:
