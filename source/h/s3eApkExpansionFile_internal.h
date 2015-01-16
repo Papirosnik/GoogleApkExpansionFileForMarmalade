@@ -54,5 +54,7 @@ bool s3eApkExpansionFileNeedDownloadPatchObb_platform();
 
 void s3eApkExpansionFileStartDownloading_platform();
 
+void s3eApkExpansionFileStopDownloading_platform();
+
 
 #endif /* !S3EAPKEXPANSIONFILE_INTERNAL_H */

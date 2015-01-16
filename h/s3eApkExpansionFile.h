@@ -34,6 +34,12 @@ struct s3eApkExpansionFileDownloadingInfo
 	long mTimeRemaining; // time remaining
 	float mCurrentSpeed; // speed in KB/S
 };
+
+struct s3eApkExpansionFileFailedInfo
+{
+	int mNewState;
+	char* mTextError;
+};
 // \cond HIDDEN_DEFINES
 S3E_BEGIN_C_DECL
 // \endcond
@@ -85,6 +91,8 @@ bool s3eApkExpansionFileNeedDownloadMainObb();
 bool s3eApkExpansionFileNeedDownloadPatchObb();
 
 void s3eApkExpansionFileStartDownloading();
+
+void s3eApkExpansionFileStopDownloading();
 
 S3E_END_C_DECL
 

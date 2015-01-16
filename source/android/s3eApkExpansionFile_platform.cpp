@@ -20,6 +20,7 @@ static jmethodID g_s3eApkExpansionFileGetPathToPatchObb;
 static jmethodID g_s3eApkExpansionFileNeedDownloadMainObb;
 static jmethodID g_s3eApkExpansionFileNeedDownloadPatchObb;
 static jmethodID g_s3eApkExpansionFileStartDownloading;
+static jmethodID g_s3eApkExpansionFileStopDownloading;
 
 void JNICALL s3eApkExpansionFileDownloadingCompletedCallback(JNIEnv* env, jobject obj, jobject param);
 void JNICALL s3eApkExpansionFileDownloadingFailedCallback(JNIEnv* env, jobject obj, jobject param);
@@ -72,10 +73,15 @@ s3eResult s3eApkExpansionFileInit_platform()
     if (!g_s3eApkExpansionFileStartDownloading)
         goto fail;
 
+	g_s3eApkExpansionFileStopDownloading = env->GetMethodID(cls, "s3eApkExpansionFileStopDownloading", "()V");
+    if (!g_s3eApkExpansionFileStopDownloading)
+        goto fail;
+		
 	static const JNINativeMethod methods[]=
 	{
 		{ "native_DownloadingComplete", "()V", 	(void*)&s3eApkExpansionFileDownloadingCompletedCallback },
-		{ "native_DownloadingFailed", "(I)V",  	(void*)&s3eApkExpansionFileDownloadingFailedCallback },
+		{ "native_DownloadingFailed", "(Lcom/ideaworks3d/marmalade/s3eApkExpansionFile/s3eApkExpansionFile$FailedInfo;)V", 
+												(void*)&s3eApkExpansionFileDownloadingFailedCallback },
 		{ "native_DownloadingUpdate", "(Lcom/ideaworks3d/marmalade/s3eApkExpansionFile/s3eApkExpansionFile$DownloadingInfo;)V",
 												(void*)&s3eApkExpansionFileDownloadingUpdateCallback }
 	};
@@ -182,16 +188,39 @@ void s3eApkExpansionFileStartDownloading_platform()
     env->CallVoidMethod(g_Obj, g_s3eApkExpansionFileStartDownloading);
 }
 
+void s3eApkExpansionFileStopDownloading_platform()
+{
+    JNIEnv* env = s3eEdkJNIGetEnv();
+    env->CallVoidMethod(g_Obj, g_s3eApkExpansionFileStopDownloading);
+}
+
 void JNICALL s3eApkExpansionFileDownloadingCompletedCallback(JNIEnv* env, jobject obj, jobject param)
 {
 	s3eEdkCallbacksEnqueue(S3E_EXT_APKEXPANSIONFILE_HASH, S3E_APKEXPANSIONFILE_DOWNLOADING_COMPLETED, NULL, 0 , NULL, false, NULL, NULL );
 }
 
+static void s3eApkExpansionFileReleaseFailedCallback(uint32, int32, void*, void*, int32, void* pData )
+{
+	s3eApkExpansionFileFailedInfo* pInfo = (s3eApkExpansionFileFailedInfo*) pData;	
+    delete pInfo;
+}
+
 void JNICALL s3eApkExpansionFileDownloadingFailedCallback(JNIEnv* env, jobject obj, jobject param)
 {
-	int err = ((jint)param);
-	s3eEdkCallbacksEnqueue(S3E_EXT_APKEXPANSIONFILE_HASH, S3E_APKEXPANSIONFILE_DOWNLOADING_FAILED, (void*)err, 0 , NULL, false, NULL, NULL );
+	s3eApkExpansionFileFailedInfo* pInfo = new s3eApkExpansionFileFailedInfo();
+	jclass cls = env->FindClass("com/ideaworks3d/marmalade/s3eApkExpansionFile/s3eApkExpansionFile$FailedInfo");
+	pInfo->mNewState 	= env->GetIntField( param, env->GetFieldID(cls, "mNewState", "I"));
 	
+	jfieldID fidMessage = env->GetFieldID(cls, "mTextError", "Ljava/lang/String;");
+	jstring message = (jstring)env->GetObjectField(param, fidMessage);
+	pInfo->mTextError = javaStringToNative(message);	
+	if (s3eEdkCallbacksEnqueue(S3E_EXT_APKEXPANSIONFILE_HASH, S3E_APKEXPANSIONFILE_DOWNLOADING_FAILED,
+		(void*)pInfo, 0, 
+		NULL, false,
+		&s3eApkExpansionFileReleaseFailedCallback, (void*)pInfo) != S3E_RESULT_SUCCESS)
+	{
+		s3eDebugOutputString("s3eApkExpansionFileDownloadingFailedCallback: s3eEdkCallbacksEnqueue - some error!");
+	}
 }
 
 static void s3eApkExpansionFileReleaseUpdateCallback(uint32, int32, void*, void*, int32, void* pData )

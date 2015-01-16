@@ -8,7 +8,7 @@ files
 	MyAlarmReceiver.java
 	MyDownloaderService.java
     s3eApkExpansionFile.java
-	R.java
+	#R.java
 	
 	(source/android/com/google/android/vending/expansion/downloader)
 	Constants.java

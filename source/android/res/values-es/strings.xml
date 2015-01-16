@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="notification_download_complete">Descarga completada</string>
+    <string name="notification_download_failed">La descarga no se ha realizado</string>
+    <string name="state_unknown">Iniciando...</string>
+    <string name="state_idle">Esperando a que se inicie la descarga</string>
+    <string name="state_fetching_url">Buscando recursos para descargar</string>
+    <string name="state_connecting">Conectando con el servidor de descarga</string>
+    <string name="state_downloading">Descargando recursos</string>
+    <string name="state_completed">Descarga finalizada</string>
+    <string name="state_paused_network_unavailable">Descarga en pausa porque no hay ninguna red disponible</string>
+    <string name="state_paused_network_setup_failure">Descarga en pausa. Prueba un sitio web en el navegador.</string>
+    <string name="state_paused_by_request">Descarga en pausa</string>
+    <string name="state_paused_wifi_unavailable">Descarga en pausa porque la conexión Wi-Fi no está disponible</string>
+    <string name="state_paused_wifi_disabled">Descarga en pausa porque la conexión Wi-Fi está desactivada</string>
+    <string name="state_paused_roaming">Descarga en pausa porque tu dispositivo está en roaming</string>
+    <string name="state_paused_sdcard_unavailable">Descarga en pausa porque el almacenamiento externo no está disponible</string>
+    <string name="state_failed_unlicensed">Se ha producido un error en la descarga porque puede que no hayas comprado esta aplicación</string>
+    <string name="state_failed_fetching_url">Se ha producido un error en la descarga porque no se han encontrado los recursos</string>
+    <string name="state_failed_sdcard_full">Se ha producido un error en la descarga porque el almacenamiento externo está lleno</string>
+    <string name="state_failed_cancelled">Descarga cancelada</string>
+    <string name="state_failed">Se ha producido un error en la descarga</string>
+    <string name="kilobytes_per_second">%1$s KB/s</string>
+    <string name="time_remaining">Tiempo restante: %1$s</string>
+    <string name="time_remaining_notification">%1$s restante</string>
+</resources>

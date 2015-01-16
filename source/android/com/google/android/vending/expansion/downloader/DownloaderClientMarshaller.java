@@ -272,6 +272,5 @@ public class DownloaderClientMarshaller {
             throws NameNotFoundException {
         return DownloaderService.startDownloadServiceIfRequired(context, notificationClient,
                 serviceClass);
-    }    
-
+    }  
 }

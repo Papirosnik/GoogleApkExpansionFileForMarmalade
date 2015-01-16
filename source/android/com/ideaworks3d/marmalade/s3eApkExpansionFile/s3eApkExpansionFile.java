@@ -3,7 +3,7 @@
  * Created by Papirosnik on 17-Nov-2014 
  */
 package com.ideaworks3d.marmalade.s3eApkExpansionFile;
-import com.ideaworks3d.marmalade.s3eApkExpansionFile.R;
+//import com.ideaworks3d.marmalade.s3eApkExpansionFile.R;
 import com.ideaworks3d.marmalade.LoaderAPI;
 import com.ideaworks3d.marmalade.LoaderActivity;
 import android.content.Context;
@@ -31,11 +31,17 @@ class s3eApkExpansionFile implements IDownloaderClient
 		public long mOverallTotal;
 		public long mOverallProgress;
 		public long mTimeRemaining; // time remaining
-		public float mCurrentSpeed; // speed in KB/S	
+		public float mCurrentSpeed; // speed in KB/S
+	}
+	
+	public class FailedInfo
+	{
+		public int mNewState;
+		public String mTextError;
 	}
 	
 	public static native void native_DownloadingComplete();
-	public static native void native_DownloadingFailed(int err);
+	public static native void native_DownloadingFailed(FailedInfo errInfo);
 	public static native void native_DownloadingUpdate(DownloadingInfo sysInfo);
 	
 	public static String apiKey;	
@@ -74,6 +80,7 @@ class s3eApkExpansionFile implements IDownloaderClient
 	
     public boolean s3eApkExpansionFileNeedDownloadMainObb()
     {
+		Log.d(LOG_TAG, "s3eApkExpansionFileNeedDownloadMainObb: " + s3eApkExpansionFileGetPathToMainObb());
 		boolean b = new File(s3eApkExpansionFileGetPathToMainObb()).isFile();
 		return !b;
     }
@@ -84,11 +91,11 @@ class s3eApkExpansionFile implements IDownloaderClient
 		return !b;
     }	
 	
-
 	public void s3eApkExpansionFileStartDownloading()
-	{
+	{		
 	    try
-		{
+		{			
+			Log.d(LOG_TAG, "s3eApkExpansionFileStartDownloading: START");
 			Intent launchIntent = getActivity().getIntent();
             Intent intentToLaunchThisActivityFromNotification = new Intent(getActivity(), getActivity().getClass());
             intentToLaunchThisActivityFromNotification.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -108,13 +115,14 @@ class s3eApkExpansionFile implements IDownloaderClient
 						getApplicationContext(),
                         pendingIntent,
 						MyDownloaderService.class);
-		
+			Log.d(LOG_TAG, "DownloaderClientMarshaller: " + startResult);
 			if (startResult != DownloaderClientMarshaller.NO_DOWNLOAD_REQUIRED)
 			{
+				
 				mDownloaderClientStub = DownloaderClientMarshaller.CreateStub(this, MyDownloaderService.class);
 				if (null != mDownloaderClientStub)
 				{
-					mDownloaderClientStub.connect(getContext());
+					mDownloaderClientStub.connect(getApplicationContext());
 				}
 			}
 		}
@@ -125,9 +133,25 @@ class s3eApkExpansionFile implements IDownloaderClient
         }
 	}
 	
+	public void s3eApkExpansionFileStopDownloading()
+	{
+		Log.d(LOG_TAG, "s3eApkExpansionFileStopDownloading");
+		if (null != mRemoteService)
+		{
+			mRemoteService.requestAbortDownload();
+			mRemoteService = null;
+		}
+		if (null != mDownloaderClientStub)
+		{
+			mDownloaderClientStub.disconnect(getApplicationContext());
+			mDownloaderClientStub = null;
+		}		
+	}
+	
 	@Override
 	public void onDownloadStateChanged(int newState)
 	{
+		Log.d(LOG_TAG, "onDownloadStateChanged");	
         switch (newState)
 		{
             case IDownloaderClient.STATE_IDLE:
@@ -146,13 +170,45 @@ class s3eApkExpansionFile implements IDownloaderClient
 				Log.d(LOG_TAG, "IDownloaderClient.STATE_DOWNLOADING");
                 break;
 
-            case IDownloaderClient.STATE_FAILED_CANCELED:
-            case IDownloaderClient.STATE_FAILED:
-            case IDownloaderClient.STATE_FAILED_FETCHING_URL:
-            case IDownloaderClient.STATE_FAILED_UNLICENSED:
-				Log.d(LOG_TAG, "IDownloaderClient failed: " + newState);
-				s3eApkExpansionFile.native_DownloadingFailed(newState);
-                break;
+            case IDownloaderClient.STATE_FAILED_CANCELED: 
+			{
+				Log.d(LOG_TAG, "IDownloaderClient failed: STATE_FAILED_CANCELED"); 
+				FailedInfo p = new FailedInfo();
+				p.mNewState = newState;
+				p.mTextError = getApplicationContext().getString(Helpers.getDownloaderStringResourceIDFromState(newState));
+				s3eApkExpansionFile.native_DownloadingFailed(p);
+			}
+			break;
+			
+            case IDownloaderClient.STATE_FAILED: 
+			{
+				Log.d(LOG_TAG, "IDownloaderClient failed: STATE_FAILED");
+				FailedInfo p = new FailedInfo();
+				p.mNewState = newState;
+				p.mTextError = getApplicationContext().getString(Helpers.getDownloaderStringResourceIDFromState(newState));
+				s3eApkExpansionFile.native_DownloadingFailed(p);
+			}
+			break;
+			
+            case IDownloaderClient.STATE_FAILED_FETCHING_URL: 
+			{
+				Log.d(LOG_TAG, "IDownloaderClient failed: STATE_FAILED_FETCHING_URL");
+				FailedInfo p = new FailedInfo();
+				p.mNewState = newState;
+				p.mTextError = getApplicationContext().getString(Helpers.getDownloaderStringResourceIDFromState(newState));
+				s3eApkExpansionFile.native_DownloadingFailed(p);
+			}
+			break;
+			
+            case IDownloaderClient.STATE_FAILED_UNLICENSED: 
+			{
+				Log.d(LOG_TAG, "IDownloaderClient failed: STATE_FAILED_UNLICENSED");
+				FailedInfo p = new FailedInfo();
+				p.mNewState = newState;
+				p.mTextError = getApplicationContext().getString(Helpers.getDownloaderStringResourceIDFromState(newState));
+				s3eApkExpansionFile.native_DownloadingFailed(p);
+			}
+			break;
 				
             case IDownloaderClient.STATE_PAUSED_NEED_CELLULAR_PERMISSION:
 				Log.d(LOG_TAG, "IDownloaderClient.STATE_PAUSED_NEED_CELLULAR_PERMISSION");
@@ -183,32 +239,31 @@ class s3eApkExpansionFile implements IDownloaderClient
 				Log.d(LOG_TAG, "IDownloaderClient: Unknown state");
 				break;
 		}
+		
 	}
 	
     @Override
     public void onServiceConnected(Messenger m)
 	{
+		Log.d(LOG_TAG, "onServiceConnected");
         mRemoteService = DownloaderServiceMarshaller.CreateProxy(m);
         mRemoteService.onClientUpdated(mDownloaderClientStub.getMessenger());
     }	
 	
     @Override
     public void onDownloadProgress(DownloadProgressInfo progress)
-	{
+	{		
 		DownloadingInfo p = new DownloadingInfo();
 		p.mOverallTotal = progress.mOverallTotal;
 		p.mOverallProgress = progress.mOverallProgress;
 		p.mTimeRemaining = progress.mTimeRemaining;
 		p.mCurrentSpeed = progress.mCurrentSpeed;
+		Log.d(LOG_TAG, "onDownloadProgress : mOverallTotal : " + p.mOverallTotal);
+		Log.d(LOG_TAG, "onDownloadProgress : mOverallProgress : " + p.mOverallProgress);
 		s3eApkExpansionFile.native_DownloadingUpdate(p);
     }
 	
 	// auxiliary functions
-    private Context getContext()
-    {
-        return (Context)LoaderActivity.m_Activity;
-    }
-
     private Activity getActivity()
     {
         return LoaderActivity.m_Activity;

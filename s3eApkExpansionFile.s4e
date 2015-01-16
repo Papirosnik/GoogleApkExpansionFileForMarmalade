@@ -19,6 +19,12 @@ struct s3eApkExpansionFileDownloadingInfo
 	float mCurrentSpeed; // speed in KB/S
 };
 
+struct s3eApkExpansionFileFailedInfo
+{
+	int mNewState;
+	char* mTextError;
+};
+
 functions:
 s3eResult s3eApkExpansionFileInitialize(const char* apiKey, const char* mainFileVersion, const char* patchFileVersion) S3E_RESULT_ERROR run_on_os_thread
 const char* s3eApkExpansionFileGetPathToMainObb() NULL run_on_os_thread
@@ -26,3 +32,4 @@ const char* s3eApkExpansionFileGetPathToPatchObb() NULL run_on_os_thread
 bool s3eApkExpansionFileNeedDownloadMainObb() false run_on_os_thread 
 bool s3eApkExpansionFileNeedDownloadPatchObb() false run_on_os_thread 
 void s3eApkExpansionFileStartDownloading() run_on_os_thread
+void s3eApkExpansionFileStopDownloading() run_on_os_thread

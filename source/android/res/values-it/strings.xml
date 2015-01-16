@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_download_complete">Download completato</string>
+    <string name="notification_download_failed">Download fallito</string>
+    <string name="state_unknown">Avvio...</string>
+    <string name="state_idle">In attesa che inizi il download</string>
+    <string name="state_fetching_url">Ricerca risorse da scaricare</string>
+    <string name="state_connecting">Connessione al server per il download</string>
+    <string name="state_downloading">Download risorse</string>
+    <string name="state_completed">Download terminato</string>
+    <string name="state_paused_network_unavailable">Il download si è interrotto perché non è disponibile alcuna connessione di rete.</string>
+    <string name="state_paused_network_setup_failure">Download sospeso. Prova ad aprire una pagina web con il browser.</string>
+    <string name="state_paused_by_request">Download sospeso</string>
+    <string name="state_paused_wifi_unavailable">Il download si è interrotto perché non è disponibile alcuna connessione Wi-Fi.</string>
+    <string name="state_paused_wifi_disabled">Il download è stato sospeso perché la connessione Wi-Fi è stata disattivata.</string>
+    <string name="state_paused_roaming">Il download è stato sospeso perché la connessione è troppo debole.</string>
+    <string name="state_paused_sdcard_unavailable">Il download si è interrotto perché la memoria esterna non è disponibile.</string>
+    <string name="state_failed_unlicensed">Il download è fallito perché potresti non aver acquistato questa app.</string>
+    <string name="state_failed_fetching_url">Il download è fallito perché non è stato possibile trovare le risorse.</string>
+    <string name="state_failed_sdcard_full">Il download è fallito perché la memoria esterna è piena.</string>
+    <string name="state_failed_cancelled">Download annullato</string>
+    <string name="state_failed">Download fallito</string>
+    <string name="kilobytes_per_second">%1$s KB/s</string>
+    <string name="time_remaining">Tempo rimasto: %1$s</string>
+    <string name="time_remaining_notification">%1$s al termine</string>
+</resources>

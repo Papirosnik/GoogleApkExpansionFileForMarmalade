@@ -52,3 +52,8 @@ void s3eApkExpansionFileStartDownloading()
 {
 	s3eApkExpansionFileStartDownloading_platform();
 }
+
+void s3eApkExpansionFileStopDownloading()
+{
+	s3eApkExpansionFileStopDownloading_platform();
+}

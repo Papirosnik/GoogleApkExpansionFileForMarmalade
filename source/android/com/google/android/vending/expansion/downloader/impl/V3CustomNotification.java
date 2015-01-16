@@ -16,7 +16,9 @@
 
 package com.google.android.vending.expansion.downloader.impl;
 
-import com.ideaworks3d.marmalade.s3eApkExpansionFile.R;
+import com.ideaworks3d.marmalade.ResourceUtility;
+
+//import com.ideaworks3d.marmalade.s3eApkExpansionFile.R;
 import com.google.android.vending.expansion.downloader.Helpers;
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -70,28 +72,48 @@ public class V3CustomNotification implements DownloadNotification.ICustomNotific
         }
 
         // Build the RemoteView object
-        RemoteViews expandedView = new RemoteViews(
+        /*RemoteViews expandedView = new RemoteViews(
                 c.getPackageName(),
-                R.layout.status_bar_ongoing_event_progress_bar);
-
-        expandedView.setTextViewText(R.id.title, mTitle);
+                R.layout.status_bar_ongoing_event_progress_bar);*/
+		RemoteViews expandedView = new RemoteViews(
+                c.getPackageName(),
+                ResourceUtility.getResId("layout", "status_bar_ongoing_event_progress_bar"));
+		
+        
+		//expandedView.setTextViewText(R.id.title, mTitle);
+		expandedView.setTextViewText(ResourceUtility.getResId("id", "title"), mTitle);
+		
         // look at strings
-        expandedView.setViewVisibility(R.id.description, View.VISIBLE);
-        expandedView.setTextViewText(R.id.description,
-                Helpers.getDownloadProgressString(mCurrentBytes, mTotalBytes));
-        expandedView.setViewVisibility(R.id.progress_bar_frame, View.VISIBLE);
-        expandedView.setProgressBar(R.id.progress_bar,
+        //expandedView.setViewVisibility(R.id.description, View.VISIBLE);
+		expandedView.setViewVisibility(ResourceUtility.getResId("id", "description"), View.VISIBLE);
+        //expandedView.setTextViewText(R.id.description, Helpers.getDownloadProgressString(mCurrentBytes, mTotalBytes));
+		expandedView.setTextViewText(ResourceUtility.getResId("id", "description"), Helpers.getDownloadProgressString(mCurrentBytes, mTotalBytes));
+        //expandedView.setViewVisibility(R.id.progress_bar_frame, View.VISIBLE);
+		expandedView.setViewVisibility(ResourceUtility.getResId("id", "progress_bar_frame"), View.VISIBLE);
+        /*expandedView.setProgressBar(R.id.progress_bar,
+                (int) (mTotalBytes >> 8),
+                (int) (mCurrentBytes >> 8),
+                mTotalBytes <= 0);*/
+		expandedView.setProgressBar(ResourceUtility.getResId("id", "progress_bar"),
                 (int) (mTotalBytes >> 8),
                 (int) (mCurrentBytes >> 8),
                 mTotalBytes <= 0);
-        expandedView.setViewVisibility(R.id.time_remaining, View.VISIBLE);
-        expandedView.setTextViewText(
+        //expandedView.setViewVisibility(R.id.time_remaining, View.VISIBLE);
+		expandedView.setViewVisibility(ResourceUtility.getResId("id", "time_remaining"), View.VISIBLE);
+        /*expandedView.setTextViewText(
                 R.id.time_remaining,
                 c.getString(R.string.time_remaining_notification,
+                        Helpers.getTimeRemaining(mTimeRemaining)));*/
+		expandedView.setTextViewText(
+                ResourceUtility.getResId("id", "time_remaining"),
+                c.getString(ResourceUtility.getResId("string", "time_remaining_notification"),
                         Helpers.getTimeRemaining(mTimeRemaining)));
-        expandedView.setTextViewText(R.id.progress_text,
+        /*expandedView.setTextViewText(R.id.progress_text,
+                Helpers.getDownloadProgressPercent(mCurrentBytes, mTotalBytes));*/
+		expandedView.setTextViewText(ResourceUtility.getResId("id", "progress_text"),
                 Helpers.getDownloadProgressPercent(mCurrentBytes, mTotalBytes));
-        expandedView.setImageViewResource(R.id.appIcon, mIcon);
+        //expandedView.setImageViewResource(R.id.appIcon, mIcon);
+		expandedView.setImageViewResource(ResourceUtility.getResId("id", "appIcon"), mIcon);
         n.contentView = expandedView;
         n.contentIntent = mPendingIntent;
         return n;

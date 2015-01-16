@@ -60,12 +60,19 @@ static void s3eApkExpansionFileStartDownloading_wrap()
     s3eEdkThreadRunOnOS((s3eEdkThreadFunc)s3eApkExpansionFileStartDownloading, 0);
 }
 
+static void s3eApkExpansionFileStopDownloading_wrap()
+{
+    IwTrace(APKEXPANSIONFILE_VERBOSE, ("calling s3eApkExpansionFile func on main thread: s3eApkExpansionFileStopDownloading"));
+    s3eEdkThreadRunOnOS((s3eEdkThreadFunc)s3eApkExpansionFileStopDownloading, 0);
+}
+
 #define s3eApkExpansionFileInitialize s3eApkExpansionFileInitialize_wrap
 #define s3eApkExpansionFileGetPathToMainObb s3eApkExpansionFileGetPathToMainObb_wrap
 #define s3eApkExpansionFileGetPathToPatchObb s3eApkExpansionFileGetPathToPatchObb_wrap
 #define s3eApkExpansionFileNeedDownloadMainObb s3eApkExpansionFileNeedDownloadMainObb_wrap
 #define s3eApkExpansionFileNeedDownloadPatchObb s3eApkExpansionFileNeedDownloadPatchObb_wrap
 #define s3eApkExpansionFileStartDownloading s3eApkExpansionFileStartDownloading_wrap
+#define s3eApkExpansionFileStopDownloading s3eApkExpansionFileStopDownloading_wrap
 
 #endif
 
@@ -82,7 +89,7 @@ s3eResult s3eApkExpansionFileUnRegister(s3eApkExpansionFileCallback cbid, s3eCal
 void s3eApkExpansionFileRegisterExt()
 {
     /* fill in the function pointer struct for this extension */
-    void* funcPtrs[8];
+    void* funcPtrs[9];
     funcPtrs[0] = (void*)s3eApkExpansionFileRegister;
     funcPtrs[1] = (void*)s3eApkExpansionFileUnRegister;
     funcPtrs[2] = (void*)s3eApkExpansionFileInitialize;
@@ -91,11 +98,12 @@ void s3eApkExpansionFileRegisterExt()
     funcPtrs[5] = (void*)s3eApkExpansionFileNeedDownloadMainObb;
     funcPtrs[6] = (void*)s3eApkExpansionFileNeedDownloadPatchObb;
     funcPtrs[7] = (void*)s3eApkExpansionFileStartDownloading;
+    funcPtrs[8] = (void*)s3eApkExpansionFileStopDownloading;
 
     /*
      * Flags that specify the extension's use of locking and stackswitching
      */
-    int flags[8] = { 0 };
+    int flags[9] = { 0 };
 
     /*
      * Register the extension

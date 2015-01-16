@@ -16,7 +16,7 @@
 
 package com.google.android.vending.expansion.downloader.impl;
 
-import com.ideaworks3d.marmalade.s3eApkExpansionFile.R;
+import com.ideaworks3d.marmalade.ResourceUtility;
 import com.google.android.vending.expansion.downloader.DownloadProgressInfo;
 import com.google.android.vending.expansion.downloader.DownloaderClientMarshaller;
 import com.google.android.vending.expansion.downloader.Helpers;
@@ -27,6 +27,8 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.os.Messenger;
+import android.util.Log; 
+import android.R;
 
 /**
  * This class handles displaying the notification associated with the download
@@ -55,8 +57,8 @@ public class DownloadNotification implements IDownloaderClient {
     private PendingIntent mContentIntent;
     private DownloadProgressInfo mProgressInfo;
 
-    static final String LOGTAG = "DownloadNotification";
-    static final int NOTIFICATION_ID = LOGTAG.hashCode();
+    static final String LOG_TAG = "DownloadNotification";
+    static final int NOTIFICATION_ID = LOG_TAG.hashCode();
 
     public PendingIntent getClientIntent() {
         return mContentIntent;
@@ -74,6 +76,9 @@ public class DownloadNotification implements IDownloaderClient {
 
     @Override
     public void onDownloadStateChanged(int newState) {
+	
+		Log.d(LOG_TAG, "onDownloadStateChanged");
+		
         if (null != mClientProxy) {
             mClientProxy.onDownloadStateChanged(newState);
         }
@@ -86,30 +91,31 @@ public class DownloadNotification implements IDownloaderClient {
             int iconResource;
             boolean ongoingEvent;
 
+			Log.d(LOG_TAG, "onDownloadStateChanged switch:" + newState);
             // get the new title string and paused text
             switch (newState) {
                 case 0:
-                    iconResource = android.R.drawable.stat_sys_warning;
-                    stringDownloadID = R.string.state_unknown;
+					iconResource = android.R.drawable.stat_sys_warning;
+                    stringDownloadID = Helpers.getDownloaderStringResourceIDFromState(newState);
                     ongoingEvent = false;
                     break;
 
                 case IDownloaderClient.STATE_DOWNLOADING:
-                    iconResource = android.R.drawable.stat_sys_download;
+					iconResource = android.R.drawable.stat_sys_download;
                     stringDownloadID = Helpers.getDownloaderStringResourceIDFromState(newState);
                     ongoingEvent = true;
                     break;
 
                 case IDownloaderClient.STATE_FETCHING_URL:
                 case IDownloaderClient.STATE_CONNECTING:
-                    iconResource = android.R.drawable.stat_sys_download_done;
+					iconResource = android.R.drawable.stat_sys_download_done;
                     stringDownloadID = Helpers.getDownloaderStringResourceIDFromState(newState);
-                    ongoingEvent = true;
+                    ongoingEvent = false;
                     break;
 
                 case IDownloaderClient.STATE_COMPLETED:
                 case IDownloaderClient.STATE_PAUSED_BY_REQUEST:
-                    iconResource = android.R.drawable.stat_sys_download_done;
+					iconResource = android.R.drawable.stat_sys_download_done;
                     stringDownloadID = Helpers.getDownloaderStringResourceIDFromState(newState);
                     ongoingEvent = false;
                     break;
@@ -119,7 +125,7 @@ public class DownloadNotification implements IDownloaderClient {
                 case IDownloaderClient.STATE_FAILED_FETCHING_URL:
                 case IDownloaderClient.STATE_FAILED_SDCARD_FULL:
                 case IDownloaderClient.STATE_FAILED_UNLICENSED:
-                    iconResource = android.R.drawable.stat_sys_warning;
+					iconResource = android.R.drawable.stat_sys_warning;
                     stringDownloadID = Helpers.getDownloaderStringResourceIDFromState(newState);
                     ongoingEvent = false;
                     break;
@@ -130,7 +136,8 @@ public class DownloadNotification implements IDownloaderClient {
                     ongoingEvent = true;
                     break;
             }
-            mCurrentText = mContext.getString(stringDownloadID);
+			Log.d(LOG_TAG, "mContext.getString : " + stringDownloadID);
+			mCurrentText = mContext.getString(stringDownloadID);
             mCurrentTitle = mLabel.toString();
             mCurrentNotification.tickerText = mLabel + ": " + mCurrentText;
             mCurrentNotification.icon = iconResource;
@@ -155,13 +162,13 @@ public class DownloadNotification implements IDownloaderClient {
         if (progress.mOverallTotal <= 0) {
             // we just show the text
             mNotification.tickerText = mCurrentTitle;
-            mNotification.icon = android.R.drawable.stat_sys_download;
+			mNotification.icon = android.R.drawable.stat_sys_download;
             mNotification.setLatestEventInfo(mContext, mLabel, mCurrentText, mContentIntent);
             mCurrentNotification = mNotification;
         } else {
             mCustomNotification.setCurrentBytes(progress.mOverallProgress);
             mCustomNotification.setTotalBytes(progress.mOverallTotal);
-            mCustomNotification.setIcon(android.R.drawable.stat_sys_download);
+			mCustomNotification.setIcon(android.R.drawable.stat_sys_download);
             mCustomNotification.setPendingIntent(mContentIntent);
             mCustomNotification.setTicker(mLabel + ": " + mCurrentText);
             mCustomNotification.setTitle(mLabel);

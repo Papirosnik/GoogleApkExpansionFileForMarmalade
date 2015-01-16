@@ -16,7 +16,8 @@
 
 package com.google.android.vending.expansion.downloader.impl;
 
-import com.ideaworks3d.marmalade.s3eApkExpansionFile.R;
+//import com.ideaworks3d.marmalade.s3eApkExpansionFile.R;
+import com.ideaworks3d.marmalade.ResourceUtility;
 import com.google.android.vending.expansion.downloader.Helpers;
 
 import android.app.Notification;
@@ -67,12 +68,15 @@ public class V14CustomNotification implements DownloadNotification.ICustomNotifi
             builder.setProgress(0, 0, true);
         }
         builder.setContentText(Helpers.getDownloadProgressString(mCurrentKB, mTotalKB));
-        builder.setContentInfo(c.getString(R.string.time_remaining_notification,
+        /*builder.setContentInfo(c.getString(R.string.time_remaining_notification,
+                Helpers.getTimeRemaining(mTimeRemaining)));*/
+		builder.setContentInfo(c.getString(ResourceUtility.getResId("string", "time_remaining_notification"),
                 Helpers.getTimeRemaining(mTimeRemaining)));
         if (mIcon != 0) {
             builder.setSmallIcon(mIcon);
         } else {
             int iconResource = android.R.drawable.stat_sys_download;
+			//int iconResource = ResourceUtility.getResId("drawable", "stat_sys_download");
             builder.setSmallIcon(iconResource);
         }
         builder.setOngoing(true);

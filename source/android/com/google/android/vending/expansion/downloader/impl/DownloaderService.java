@@ -1008,6 +1008,7 @@ public abstract class DownloaderService extends CustomIntentService implements I
     protected void onHandleIntent(Intent intent) {
         setServiceRunning(true);
         try {
+		
             // the database automatically reads the metadata for version code
             // and download status when the instance is created
             DownloadsDB db = DownloadsDB.getDB(this);
@@ -1157,6 +1158,10 @@ public abstract class DownloaderService extends CustomIntentService implements I
 
     @Override
     public void onDestroy() {
+		if (Constants.LOGV) {
+            Log.v(Constants.TAG, "DonwloadService onDestroy()");
+        }
+	
         if (null != mConnReceiver) {
             unregisterReceiver(mConnReceiver);
             mConnReceiver = null;
@@ -1324,6 +1329,10 @@ public abstract class DownloaderService extends CustomIntentService implements I
         if (db.mStatus == 0) {
             return true;
         }
+		if(mStatus == STATUS_CANCELED)
+		{
+			return true;
+		}
         return false;
     }
 

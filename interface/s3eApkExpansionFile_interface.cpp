@@ -30,6 +30,7 @@ typedef const char*(*s3eApkExpansionFileGetPathToPatchObb_t)();
 typedef       bool(*s3eApkExpansionFileNeedDownloadMainObb_t)();
 typedef       bool(*s3eApkExpansionFileNeedDownloadPatchObb_t)();
 typedef       void(*s3eApkExpansionFileStartDownloading_t)();
+typedef       void(*s3eApkExpansionFileStopDownloading_t)();
 
 /**
  * struct that gets filled in by s3eApkExpansionFileRegister
@@ -44,6 +45,7 @@ typedef struct s3eApkExpansionFileFuncs
     s3eApkExpansionFileNeedDownloadMainObb_t m_s3eApkExpansionFileNeedDownloadMainObb;
     s3eApkExpansionFileNeedDownloadPatchObb_t m_s3eApkExpansionFileNeedDownloadPatchObb;
     s3eApkExpansionFileStartDownloading_t m_s3eApkExpansionFileStartDownloading;
+    s3eApkExpansionFileStopDownloading_t m_s3eApkExpansionFileStopDownloading;
 } s3eApkExpansionFileFuncs;
 
 static s3eApkExpansionFileFuncs g_Ext;
@@ -241,6 +243,26 @@ void s3eApkExpansionFileStartDownloading()
 #endif
 
     g_Ext.m_s3eApkExpansionFileStartDownloading();
+
+#ifdef LOADER_CALL_LOCK
+    s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
+#endif
+
+    return;
+}
+
+void s3eApkExpansionFileStopDownloading()
+{
+    IwTrace(APKEXPANSIONFILE_VERBOSE, ("calling s3eApkExpansionFile[8] func: s3eApkExpansionFileStopDownloading"));
+
+    if (!_extLoad())
+        return;
+
+#ifdef LOADER_CALL_LOCK
+    s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
+#endif
+
+    g_Ext.m_s3eApkExpansionFileStopDownloading();
 
 #ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallDone(S3E_TRUE, NULL);

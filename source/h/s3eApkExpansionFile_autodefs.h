@@ -15,7 +15,7 @@
 #ifndef S3E_EXT_REGISTER_KEY
 #define S3E_EXT_REGISTER_KEY(name, num, key) S3E_EXT_REGISTER(name, num)
 #endif
-S3E_EXT_REGISTER("s3eApkExpansionFile", 8)
+S3E_EXT_REGISTER("s3eApkExpansionFile", 9)
 #else
 
 #endif /* S3E_EXT_REGISTER */

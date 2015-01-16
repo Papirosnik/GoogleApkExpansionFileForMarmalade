@@ -16,7 +16,7 @@
 
 package com.google.android.vending.expansion.downloader;
 
-import com.ideaworks3d.marmalade.s3eApkExpansionFile.R;
+import com.ideaworks3d.marmalade.ResourceUtility;
 
 import android.content.Context;
 import android.os.Environment;
@@ -260,46 +260,47 @@ public class Helpers {
      * @param state One of the STATE_* constants from {@link IDownloaderClient}.
      * @return string resource ID for the corresponding string.
      */
-    static public int getDownloaderStringResourceIDFromState(int state) {
+    
+	static public int getDownloaderStringResourceIDFromState(int state) {
         switch (state) {
             case IDownloaderClient.STATE_IDLE:
-                return R.string.state_idle;
+                return ResourceUtility.getResId("string", "state_idle");
             case IDownloaderClient.STATE_FETCHING_URL:
-                return R.string.state_fetching_url;
+                return ResourceUtility.getResId("string", "state_fetching_url");
             case IDownloaderClient.STATE_CONNECTING:
-                return R.string.state_connecting;
+                return ResourceUtility.getResId("string", "state_connecting");
             case IDownloaderClient.STATE_DOWNLOADING:
-                return R.string.state_downloading;
+                return ResourceUtility.getResId("string", "state_downloading");
             case IDownloaderClient.STATE_COMPLETED:
-                return R.string.state_completed;
+                return ResourceUtility.getResId("string", "state_completed");
             case IDownloaderClient.STATE_PAUSED_NETWORK_UNAVAILABLE:
-                return R.string.state_paused_network_unavailable;
+                return ResourceUtility.getResId("string", "state_paused_network_unavailable");
             case IDownloaderClient.STATE_PAUSED_BY_REQUEST:
-                return R.string.state_paused_by_request;
+                return ResourceUtility.getResId("string", "state_paused_by_request");
             case IDownloaderClient.STATE_PAUSED_WIFI_DISABLED_NEED_CELLULAR_PERMISSION:
-                return R.string.state_paused_wifi_disabled;
+                return ResourceUtility.getResId("string", "state_paused_wifi_disabled");
             case IDownloaderClient.STATE_PAUSED_NEED_CELLULAR_PERMISSION:
-                return R.string.state_paused_wifi_unavailable;
+                return ResourceUtility.getResId("string", "state_paused_wifi_unavailable");
             case IDownloaderClient.STATE_PAUSED_WIFI_DISABLED:
-                return R.string.state_paused_wifi_disabled;
+                return ResourceUtility.getResId("string", "state_paused_wifi_disabled");
             case IDownloaderClient.STATE_PAUSED_NEED_WIFI:
-                return R.string.state_paused_wifi_unavailable;
+                return ResourceUtility.getResId("string", "state_paused_wifi_unavailable");
             case IDownloaderClient.STATE_PAUSED_ROAMING:
-                return R.string.state_paused_roaming;
+                return ResourceUtility.getResId("string", "state_paused_roaming");
             case IDownloaderClient.STATE_PAUSED_NETWORK_SETUP_FAILURE:
-                return R.string.state_paused_network_setup_failure;
+                return ResourceUtility.getResId("string", "state_paused_network_setup_failure");
             case IDownloaderClient.STATE_PAUSED_SDCARD_UNAVAILABLE:
-                return R.string.state_paused_sdcard_unavailable;
+                return ResourceUtility.getResId("string", "state_paused_sdcard_unavailable");
             case IDownloaderClient.STATE_FAILED_UNLICENSED:
-                return R.string.state_failed_unlicensed;
+                return ResourceUtility.getResId("string", "state_failed_unlicensed");
             case IDownloaderClient.STATE_FAILED_FETCHING_URL:
-                return R.string.state_failed_fetching_url;
+                return ResourceUtility.getResId("string", "state_failed_fetching_url");
             case IDownloaderClient.STATE_FAILED_SDCARD_FULL:
-                return R.string.state_failed_sdcard_full;
+                return ResourceUtility.getResId("string", "state_failed_sdcard_full");
             case IDownloaderClient.STATE_FAILED_CANCELED:
-                return R.string.state_failed_cancelled;
+                return ResourceUtility.getResId("string", "state_failed_cancelled");
             default:
-                return R.string.state_unknown;
+                return ResourceUtility.getResId("string", "state_unknown");
         }
     }
 

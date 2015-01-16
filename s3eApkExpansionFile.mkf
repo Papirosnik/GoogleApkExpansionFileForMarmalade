@@ -41,5 +41,5 @@ deployments
     android-so="lib/android/libs3eApkExpansionFile.so"
 	android-extra-application-manifest="source/android/ExtraAppManifests.xml"
 	android-extra-manifest="source/android/ExtraManifests.xml"
-	android-external-res='source/android/res'	
+	android-external-res='source/android/res/'	
 }

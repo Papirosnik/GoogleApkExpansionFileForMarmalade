@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_download_complete">Download abgeschlossen</string>
+    <string name="notification_download_failed">Download gescheitert</string>
+    <string name="state_unknown">Startet...</string>
+    <string name="state_idle">Wartet auf Beginn des Downloads</string>
+    <string name="state_fetching_url">Sucht herunterladbare Ressourcen</string>
+    <string name="state_connecting">Verbindet mit Download-Server</string>
+    <string name="state_downloading">Lädt Ressourcen herunter</string>
+    <string name="state_completed">Download abgeschlossen</string>
+    <string name="state_paused_network_unavailable">Download pausiert, da kein Netzwerk verfügbar ist</string>
+    <string name="state_paused_network_setup_failure">Download pausiert. Versuche, im Browser eine Website zu laden.</string>
+    <string name="state_paused_by_request">Download pausiert</string>
+    <string name="state_paused_wifi_unavailable">Download pausiert, da WiFi nicht verfügbar ist</string>
+    <string name="state_paused_wifi_disabled">Download pausiert, da WiFi deaktiviert ist</string>
+    <string name="state_paused_roaming">Download pausiert, da du Roaming nutzt</string>
+    <string name="state_paused_sdcard_unavailable">Download pausiert, da externer Speicher nicht verfügbar ist</string>
+    <string name="state_failed_unlicensed">Download gescheitert, da du diese App eventuell nicht gekauft hast</string>
+    <string name="state_failed_fetching_url">Download gescheitert, da Ressourcen nicht gefunden wurden</string>
+    <string name="state_failed_sdcard_full">Download gescheitert, da externer Speicher voll ist</string>
+    <string name="state_failed_cancelled">Download abgebrochen</string>
+    <string name="state_failed">Download gescheitert</string>
+    <string name="kilobytes_per_second">%1$s KB/s</string>
+    <string name="time_remaining">Verbleibende Zeit: %1$s</string>
+    <string name="time_remaining_notification">%1$s übrig</string>
+</resources>
