@@ -1,3 +1,17 @@
+Last changes by spothieux:
+
+Removed R.java and added the call by the marmalade function
+
+Improved the failed function in order to add the notification Text inside the struct of the callback.
+It allows you to draw the text inside the application.
+
+Added StopDownload function. If you close the application during a download, the app will not crash if you call this function before you exit your app.
+
+Added support for several languages (fr, de, es, pt, it).
+
+
+
+==================================
 GoogleApkExpansionFileForMarmalade
 ==================================
 
@@ -33,7 +47,8 @@ And write something like this somewhere in your code:
 
 	int32 downloadingObbFailedCallback(void *sysInfo, void* userInfo)
 	{
-		IwTrace(APKEXPANSIONFILE, ("Downloading failed with error code '%u'", (uint)(sysInfo)));
+		FailedInfo* failedInfo = (FailedInfo*)userInfo;
+		IwTrace(APKEXPANSIONFILE, ("Downloading failed with error '%s' (code: %d)", failedInfo->mTextError, failedInfo->mNewState));
 		return S3E_RESULT_SUCCESS;
 	}
 
